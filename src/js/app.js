@@ -269,10 +269,10 @@ function updateFilters() {
 }
 
 /**
- * Get filtered restaurants
+ * Get filtered restaurants (sorted by distance if location available)
  */
 function getFilteredRestaurants() {
-  return state.restaurants.filter(r => {
+  let filtered = state.restaurants.filter(r => {
     // Cuisine filter
     if (state.filters.cuisine.length > 0) {
       if (!state.filters.cuisine.includes(r.experience?.cuisine_type)) {
@@ -309,6 +309,20 @@ function getFilteredRestaurants() {
 
     return true;
   });
+
+  // Sort by distance if user location is available
+  if (state.userLocation) {
+    filtered = filtered.map(r => ({
+      ...r,
+      _distance: getDistanceToRestaurant(r)
+    })).sort((a, b) => {
+      if (a._distance === null) return 1;
+      if (b._distance === null) return -1;
+      return a._distance - b._distance;
+    });
+  }
+
+  return filtered;
 }
 
 /**
@@ -350,6 +364,8 @@ function renderRestaurantList() {
 function renderRestaurantCard(r) {
   const hitwRating = calculateHITWRating(r);
   const hitwDots = renderHITWDots(hitwRating);
+  const distance = r._distance !== undefined ? r._distance : getDistanceToRestaurant(r);
+  const distanceText = formatDistance(distance);
 
   return `
     <div class="restaurant-card" data-id="${r.id}">
@@ -359,6 +375,11 @@ function renderRestaurantCard(r) {
           <span class="card-name-ja jp">${r.name_ja}</span>
         </div>
         <div class="card-ratings">
+          ${distanceText ? `
+            <div class="card-distance">
+              <span class="card-distance-value">${distanceText}</span>
+            </div>
+          ` : ''}
           ${r.authenticity?.tabelog_rating ? `
             <div class="card-rating">
               <span class="card-rating-value">${r.authenticity.tabelog_rating}</span>
@@ -561,6 +582,47 @@ function renderDetailView(r) {
 }
 
 /**
+ * Calculate distance between two coordinates (Haversine formula)
+ * Returns distance in miles
+ */
+function calculateDistance(lat1, lng1, lat2, lng2) {
+  const R = 3959; // Earth's radius in miles
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLng / 2) * Math.sin(dLng / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
+
+/**
+ * Get distance from user to restaurant
+ * Returns null if no user location
+ */
+function getDistanceToRestaurant(r) {
+  if (!state.userLocation || !r.location?.coordinates) return null;
+  const { lat, lng } = r.location.coordinates;
+  return calculateDistance(
+    state.userLocation.lat,
+    state.userLocation.lng,
+    lat,
+    lng
+  );
+}
+
+/**
+ * Format distance for display
+ */
+function formatDistance(miles) {
+  if (miles === null) return null;
+  if (miles < 0.1) return '< 0.1 mi';
+  if (miles < 10) return `${miles.toFixed(1)} mi`;
+  return `${Math.round(miles)} mi`;
+}
+
+/**
  * Calculate "Hole in the Wall" rating (1-5)
  * Based on: local ratio, solo-friendliness, cash only, small/hidden nature
  */
@@ -620,3 +682,4 @@ document.addEventListener('DOMContentLoaded', init);
 window.state = state;
 window.getFilteredRestaurants = getFilteredRestaurants;
 window.selectRestaurant = selectRestaurant;
+window.renderRestaurantList = renderRestaurantList;

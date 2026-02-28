@@ -236,6 +236,11 @@ function getUserLocation() {
         window.state.userLocation = { lat: latitude, lng: longitude };
         btn.classList.remove('loading');
         btn.classList.add('active');
+
+        // Re-render list sorted by distance
+        if (window.renderRestaurantList) {
+          window.renderRestaurantList();
+        }
       },
       (error) => {
         console.warn('Geolocation error:', error);

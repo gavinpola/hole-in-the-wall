@@ -251,6 +251,18 @@
   gap: var(--space-1);
 }
 
+/* Distance display */
+.card-distance {
+  text-align: right;
+}
+
+.card-distance-value {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: #4A90D9;
+}
+
 
 /* ============================================
    Pills / Badges
