@@ -1,0 +1,67 @@
+# Tori Tetsu - Nonbei Yokocho yakitori
+id: tori-tetsu-shibuya
+name_en: Tori Tetsu
+name_ja: 鳥鉄
+tagline: "8-seat counter. Charcoal smoke. Master with 40 years experience."
+
+location:
+  region: tokyo
+  area: shibuya
+  coordinates:
+    lat: 35.6612
+    lng: 139.6980
+  wayfinding:
+    approach: "Enter Nonbei Yokocho from the alley next to the train tracks. Walk straight for about 30 meters. Look for the small wooden sign on your left."
+    floor: "1F"
+    entrance: "Narrow sliding door, white noren with chicken logo"
+    landmarks: "Next to the tiny standing bar with red lanterns"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in only. Arrive by 6pm to get a seat."
+    notes: "Popular with locals, expect to wait 15-30min after 7pm"
+  hours:
+    weekday: "17:00-23:00"
+    weekend: "17:00-23:00"
+    closed: "Sunday, irregular holidays"
+  payment:
+    cash_only: true
+    notes: "Nearest ATM at 7-Eleven on Dogenzaka, 3 min walk"
+  language:
+    english_menu: false
+    english_spoken: "minimal"
+    order_tip: "Point at others' food or use Google Translate. Master appreciates effort."
+  solo_friendly:
+    rating: 5
+    counter_seats: 8
+    notes: "Counter-only, perfect for solo. Master will take care of you."
+
+experience:
+  cuisine_type: yakitori
+  specialty: "Tsukune (chicken meatball), chicken hearts, negima"
+  signature_dish: "Master's special tsukune with raw egg dip"
+  price_range: "¥¥"
+  avg_spend: "¥2,500-4,000"
+  drink_notes: "Excellent selection of nihonshu. Ask master for recommendation."
+  vibe_tags:
+    - counter-only
+    - smoke-filled
+    - local-crowd
+    - intimate
+    - master-speaks-to-you
+  atmosphere: "Smoky, warm, convivial. The kind of place where strangers become friends over drinks."
+
+authenticity:
+  years_operating: 42
+  local_ratio: 0.90
+  tabelog_rating: 3.52
+  awards: []
+  media_mentions: []
+
+discovery:
+  added_date: "2026-02-27"
+  source: "Personal visit"
+  confidence: high
+  last_verified: "2026-02-27"
+  notes: "A true hole in the wall. Master remembers regulars. Essential Shibuya experience."

@@ -1,0 +1,127 @@
+# Hole in the Wall - Region Definitions
+# These define the geographic areas and their map bounds
+
+regions:
+  tokyo:
+    name_en: Tokyo
+    name_ja: 東京
+    center: { lat: 35.6762, lng: 139.6503 }
+    zoom: 11
+    areas:
+      shibuya:
+        name_en: Shibuya
+        name_ja: 渋谷
+        center: { lat: 35.6580, lng: 139.7016 }
+        zoom: 14
+        description: "Bustling nightlife district with hidden gems in back alleys"
+      shinjuku:
+        name_en: Shinjuku
+        name_ja: 新宿
+        center: { lat: 35.6938, lng: 139.7034 }
+        zoom: 14
+        description: "Memory Lane (Omoide Yokocho) and Golden Gai treasures"
+      ginza:
+        name_en: Ginza
+        name_ja: 銀座
+        center: { lat: 35.6717, lng: 139.7649 }
+        zoom: 14
+        description: "Upscale area with hidden basement bars and sushi counters"
+      ebisu:
+        name_en: Ebisu
+        name_ja: 恵比寿
+        center: { lat: 35.6467, lng: 139.7103 }
+        zoom: 14
+        description: "Sophisticated neighborhood with izakaya-lined side streets"
+      yurakucho:
+        name_en: Yurakucho
+        name_ja: 有楽町
+        center: { lat: 35.6751, lng: 139.7630 }
+        zoom: 15
+        description: "Under-the-tracks yakitori paradise"
+      koenji:
+        name_en: Koenji
+        name_ja: 高円寺
+        center: { lat: 35.7052, lng: 139.6497 }
+        zoom: 14
+        description: "Bohemian neighborhood with quirky local spots"
+
+  osaka:
+    name_en: Osaka
+    name_ja: 大阪
+    center: { lat: 34.6937, lng: 135.5023 }
+    zoom: 12
+    areas:
+      dotonbori:
+        name_en: Dotonbori
+        name_ja: 道頓堀
+        center: { lat: 34.6687, lng: 135.5031 }
+        zoom: 15
+        description: "Neon-lit food paradise with hidden second-floor gems"
+      shinsekai:
+        name_en: Shinsekai
+        name_ja: 新世界
+        center: { lat: 34.6525, lng: 135.5062 }
+        zoom: 15
+        description: "Retro district known for kushikatsu and local character"
+      umeda:
+        name_en: Umeda
+        name_ja: 梅田
+        center: { lat: 34.7055, lng: 135.4983 }
+        zoom: 14
+        description: "Underground food halls and hidden standing bars"
+
+  kyoto:
+    name_en: Kyoto
+    name_ja: 京都
+    center: { lat: 35.0116, lng: 135.7681 }
+    zoom: 12
+    areas:
+      gion:
+        name_en: Gion
+        name_ja: 祇園
+        center: { lat: 35.0037, lng: 135.7756 }
+        zoom: 15
+        description: "Historic geisha district with traditional machiya restaurants"
+      pontocho:
+        name_en: Pontocho
+        name_ja: 先斗町
+        center: { lat: 35.0060, lng: 135.7700 }
+        zoom: 16
+        description: "Narrow alley lined with riverside dining spots"
+      nishiki:
+        name_en: Nishiki Market
+        name_ja: 錦市場
+        center: { lat: 35.0050, lng: 135.7650 }
+        zoom: 16
+        description: "Kitchen of Kyoto with hidden eateries"
+
+cuisine_types:
+  - yakitori
+  - ramen
+  - sushi
+  - izakaya
+  - tempura
+  - udon
+  - soba
+  - tonkatsu
+  - kushikatsu
+  - okonomiyaki
+  - yakiniku
+  - kappo
+  - kissaten
+  - standing_bar
+  - depachika
+
+price_ranges:
+  - symbol: "¥"
+    label: "Budget"
+    description: "Under ¥1,500"
+  - symbol: "¥¥"
+    label: "Moderate"
+    description: "¥1,500 - ¥4,000"
+  - symbol: "¥¥¥"
+    label: "Upscale"
+    description: "¥4,000 - ¥10,000"
+  - symbol: "¥¥¥¥"
+    label: "Splurge"
+    description: "Over ¥10,000"

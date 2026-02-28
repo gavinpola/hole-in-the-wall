@@ -1,0 +1,68 @@
+# Ginza Kagari - Refined chicken ramen
+id: kagari-ginza
+name_en: Ginza Kagari
+name_ja: 銀座 篝
+tagline: "Michelin-recognized tori paitan in an elegant setting."
+
+location:
+  region: tokyo
+  area: ginza
+  coordinates:
+    lat: 35.6701
+    lng: 139.7614
+  wayfinding:
+    approach: "From Ginza Station Exit A3, walk toward Ginza Six. Take the first left into the narrow side street. The shop is in the basement."
+    floor: "B1F"
+    entrance: "Look for the stairs going down. Subtle signage."
+    landmarks: "Near the corner konbini, opposite the watch shop"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Queue at lunch. Dinner is usually less crowded."
+    notes: "Lunch line can be 30-60 minutes. Worth it."
+  hours:
+    weekday: "11:00-15:30, 18:00-22:00"
+    weekend: "11:00-15:30, 18:00-21:00"
+    closed: "None (check holidays)"
+  payment:
+    cash_only: false
+    notes: "Credit cards accepted"
+  language:
+    english_menu: true
+    english_spoken: "conversational"
+    order_tip: "Order at the counter. Tori soba is the signature."
+  solo_friendly:
+    rating: 5
+    counter_seats: 10
+    notes: "Counter seating. Upscale ramen shop perfect for solo dining."
+
+experience:
+  cuisine_type: ramen
+  specialty: "Tori paitan (chicken white soup) with handmade noodles"
+  signature_dish: "Tori soba - creamy chicken broth, delicate and refined"
+  price_range: "¥¥"
+  avg_spend: "¥1,500-2,000"
+  drink_notes: "Good sake selection for a ramen shop"
+  vibe_tags:
+    - refined
+    - modern
+    - clean
+    - michelin-quality
+  atmosphere: "Elevated ramen experience. Clean, minimal, focused on craft."
+
+authenticity:
+  years_operating: 11
+  local_ratio: 0.50
+  tabelog_rating: 3.71
+  awards:
+    - "Michelin Bib Gourmand"
+  media_mentions:
+    - "Featured in international press"
+
+discovery:
+  added_date: "2026-02-27"
+  source: "Personal visit"
+  confidence: high
+  last_verified: "2026-02-27"
+  notes: "The tori paitan is genuinely special - creamy without being heavy, complex and clean."

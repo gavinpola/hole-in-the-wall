@@ -1,0 +1,68 @@
+# Fuunji - Legendary tsukemen in Shinjuku
+id: fuunji-shinjuku
+name_en: Fuunji
+name_ja: 風雲児
+tagline: "Tokyo's most famous tsukemen. Worth the line."
+
+location:
+  region: tokyo
+  area: shinjuku
+  coordinates:
+    lat: 35.6897
+    lng: 139.6991
+  wayfinding:
+    approach: "From Shinjuku Station South Exit, walk toward Times Square. Turn right after the Takashimaya entrance. Look for the line on your left."
+    floor: "1F"
+    entrance: "Glass door, always a queue outside"
+    landmarks: "Across from a parking garage, near Don Quijote"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Line up. Average wait 20-45 minutes during peak."
+    notes: "Opens 11am, line forms by 10:30am. Go at 2-3pm for shorter wait."
+  hours:
+    weekday: "11:00-15:00, 17:00-21:00"
+    weekend: "11:00-15:00, 17:00-21:00"
+    closed: "Irregular. Check Tabelog before going."
+  payment:
+    cash_only: false
+    notes: "Ticket machine accepts IC cards"
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "Buy ticket from machine. Choose size: nami (normal) or oomori (large, same price)."
+  solo_friendly:
+    rating: 5
+    counter_seats: 12
+    notes: "Counter-only ramen shop. Designed for solo diners."
+
+experience:
+  cuisine_type: ramen
+  specialty: "Tsukemen (dipping noodles) with thick, rich gyokai tonkotsu broth"
+  signature_dish: "Tokumori tsukemen (large portion)"
+  price_range: "¥"
+  avg_spend: "¥1,000-1,300"
+  drink_notes: "Focus on the noodles. No extensive drink menu."
+  vibe_tags:
+    - quick-service
+    - counter-only
+    - cult-following
+    - focused-eating
+  atmosphere: "Efficient, focused, no-frills. Everyone here for one thing: exceptional tsukemen."
+
+authenticity:
+  years_operating: 18
+  local_ratio: 0.60
+  tabelog_rating: 3.76
+  awards:
+    - "Tabelog Award multiple years"
+  media_mentions:
+    - "Featured in countless ramen guides"
+
+discovery:
+  added_date: "2026-02-27"
+  source: "Personal visit"
+  confidence: high
+  last_verified: "2026-02-27"
+  notes: "Yes it's famous, but it earned that fame. Rich, fishy, porky broth with perfectly chewy noodles."

@@ -1,0 +1,67 @@
+# Kushikatsu Daruma - Shinsekai original
+id: kushikatsu-daruma-shinsekai
+name_en: Kushikatsu Daruma
+name_ja: 串かつだるま
+tagline: "Shinsekai institution since 1929. No double-dipping."
+
+location:
+  region: osaka
+  area: shinsekai
+  coordinates:
+    lat: 34.6521
+    lng: 135.5062
+  wayfinding:
+    approach: "Walk down Shinsekai's main covered street toward Tsutenkaku Tower. Look for the angry chef mascot outside."
+    floor: "1F"
+    entrance: "Open storefront with counter seating visible from street"
+    landmarks: "Under the iconic Tsutenkaku Tower, impossible to miss"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Join the queue. Multiple floors available."
+    notes: "Long lines on weekends. Weekday lunch is best."
+  hours:
+    weekday: "11:00-22:30"
+    weekend: "11:00-22:30"
+    closed: "None"
+  payment:
+    cash_only: false
+    notes: "Cards accepted"
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "Order individual skewers or a set. Use the shared sauce ONCE per skewer."
+  solo_friendly:
+    rating: 4
+    counter_seats: 15
+    notes: "Counter seating is great for solo. Watch your skewers being fried."
+
+experience:
+  cuisine_type: kushikatsu
+  specialty: "Deep-fried skewers with secret batter recipe"
+  signature_dish: "Omakase set - chef's choice of seasonal skewers"
+  price_range: "¥¥"
+  avg_spend: "¥2,000-3,500"
+  drink_notes: "Beer and highballs pair perfectly"
+  vibe_tags:
+    - historic
+    - bustling
+    - osaka-soul-food
+    - tourist-friendly
+  atmosphere: "Lively, energetic, quintessential Osaka. The staff yell orders, oil sizzles, everyone eats."
+
+authenticity:
+  years_operating: 95
+  local_ratio: 0.40
+  tabelog_rating: 3.45
+  awards: []
+  media_mentions:
+    - "Featured in every Osaka guide"
+
+discovery:
+  added_date: "2026-02-27"
+  source: "Personal visit"
+  confidence: high
+  last_verified: "2026-02-27"
+  notes: "Yes, tourists know it. But locals still come. The batter is genuinely excellent and the vibe is pure Osaka."

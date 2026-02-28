@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="Discover Japan's hidden restaurants - the hole-in-the-wall spots locals love">
+
+  <title>Hole in the Wall - Japan Restaurant Discovery</title>
+
+  <!-- Mapbox GL JS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/design-system.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/map.css">
+
+  <!-- Preconnect to fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Map container -->
+  <div id="map"></div>
+
+  <!-- Loading state -->
+  <div class="map-loading" id="map-loading">
+    <div class="map-loading-spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      hole<span class="logo-accent">.</span>in<span class="logo-accent">.</span>the<span class="logo-accent">.</span>wall
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" id="filter-btn" aria-label="Filter restaurants">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Map controls -->
+  <div class="map-controls">
+    <button class="map-control-btn location-btn" id="location-btn" aria-label="Go to my location">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+      </svg>
+    </button>
+    <button class="map-control-btn" id="zoom-in-btn" aria-label="Zoom in">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+      </svg>
+    </button>
+    <button class="map-control-btn" id="zoom-out-btn" aria-label="Zoom out">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Bottom Sheet -->
+  <div class="sheet-container">
+    <div class="sheet" id="sheet">
+      <div class="sheet-handle" id="sheet-handle"></div>
+      <div class="sheet-content" id="sheet-content">
+        <!-- List view (default) -->
+        <div id="list-view">
+          <div class="list-header">
+            <span class="list-title">Nearby spots</span>
+            <span class="list-count mono" id="restaurant-count">0 places</span>
+          </div>
+          <div class="restaurant-list" id="restaurant-list">
+            <!-- Restaurant cards rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Detail view (when restaurant selected) -->
+        <div id="detail-view" style="display: none;">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filter drawer -->
+  <div class="filter-overlay" id="filter-overlay"></div>
+  <div class="filter-drawer" id="filter-drawer">
+    <div class="filter-header">
+      <h2 class="filter-title">Filters</h2>
+      <button class="icon-btn" id="filter-close-btn" aria-label="Close filters">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="filter-section">
+      <h3 class="filter-section-title">Cuisine</h3>
+      <div class="filter-options" id="cuisine-filters">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <h3 class="filter-section-title">Area</h3>
+      <div class="filter-options" id="area-filters">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <h3 class="filter-section-title">Features</h3>
+      <div class="filter-options" id="feature-filters">
+        <button class="filter-chip" data-filter="solo_friendly">Solo-friendly</button>
+        <button class="filter-chip" data-filter="cash_only">Cash only</button>
+        <button class="filter-chip" data-filter="english_menu">English menu</button>
+        <button class="filter-chip" data-filter="no_reservation">No reservation</button>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <h3 class="filter-section-title">Price</h3>
+      <div class="filter-options" id="price-filters">
+        <button class="filter-chip" data-filter="price_1">¥</button>
+        <button class="filter-chip" data-filter="price_2">¥¥</button>
+        <button class="filter-chip" data-filter="price_3">¥¥¥</button>
+        <button class="filter-chip" data-filter="price_4">¥¥¥¥</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

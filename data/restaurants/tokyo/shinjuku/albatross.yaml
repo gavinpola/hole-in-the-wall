@@ -1,0 +1,67 @@
+# Albatross - Golden Gai standing bar
+id: albatross-golden-gai
+name_en: Albatross
+name_ja: アルバトロス
+tagline: "Three-floor Golden Gai bar. Chandelier on top. Locals and travelers mix."
+
+location:
+  region: tokyo
+  area: shinjuku
+  coordinates:
+    lat: 35.6937
+    lng: 139.7042
+  wayfinding:
+    approach: "Enter Golden Gai from the Hanazono Shrine side. Take the second alley on your right. Look for the narrow building with lights on all floors."
+    floor: "1F-3F"
+    entrance: "Tiny door at street level. Duck your head."
+    landmarks: "Near the shrine entrance, one of the taller buildings in the alley"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in if there's space. Seat charge applies."
+    notes: "Cover charge ~¥500. Worth it for the atmosphere."
+  hours:
+    weekday: "20:00-05:00"
+    weekend: "20:00-05:00"
+    closed: "Irregular"
+  payment:
+    cash_only: true
+    notes: "Cash only. Small bills preferred."
+  language:
+    english_menu: false
+    english_spoken: "conversational"
+    order_tip: "Point at what others are drinking. Beer and whisky are safe bets."
+  solo_friendly:
+    rating: 5
+    counter_seats: 8
+    notes: "Tiny standing/sitting space. Solo is normal here."
+
+experience:
+  cuisine_type: standing_bar
+  specialty: "Drinks and conversation"
+  signature_dish: "Not a food destination - simple snacks available"
+  price_range: "¥¥"
+  avg_spend: "¥1,500-3,000"
+  drink_notes: "Whisky, beer, simple cocktails. The third floor has a chandelier and better whisky selection."
+  vibe_tags:
+    - golden-gai
+    - standing-bar
+    - late-night
+    - intimate
+    - international-crowd
+  atmosphere: "Three tiny floors, each with its own character. The top floor chandelier is unexpectedly elegant."
+
+authenticity:
+  years_operating: 30
+  local_ratio: 0.50
+  tabelog_rating: 3.15
+  awards: []
+  media_mentions: []
+
+discovery:
+  added_date: "2026-02-27"
+  source: "Personal visit"
+  confidence: high
+  last_verified: "2026-02-27"
+  notes: "More tourist-friendly than most Golden Gai spots, but still authentic. Great entry point to the district."
