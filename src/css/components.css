@@ -211,6 +211,46 @@
   gap: var(--space-2);
 }
 
+/* HITW Rating in Card */
+.card-hitw {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.card-hitw-label {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.card-hitw-dots {
+  display: flex;
+  gap: 3px;
+}
+
+.hitw-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--border-default);
+}
+
+.hitw-dot.filled {
+  background: var(--accent-warm);
+}
+
+/* Card ratings container */
+.card-ratings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-1);
+}
+
 
 /* ============================================
    Pills / Badges

@@ -13,6 +13,7 @@ const hasToken = MAPBOX_TOKEN && !MAPBOX_TOKEN.includes('YOUR_');
 let map = null;
 let markers = [];
 let selectedMarker = null;
+let userLocationMarker = null;
 
 // Default center (Tokyo)
 const DEFAULT_CENTER = [139.6917, 35.6895];
@@ -227,14 +228,14 @@ function getUserLocation() {
             zoom: 14,
             essential: true
           });
+
+          // Add or update user location marker
+          updateUserLocationMarker(latitude, longitude);
         }
 
         window.state.userLocation = { lat: latitude, lng: longitude };
         btn.classList.remove('loading');
         btn.classList.add('active');
-
-        // Remove active state after a moment
-        setTimeout(() => btn.classList.remove('active'), 2000);
       },
       (error) => {
         console.warn('Geolocation error:', error);
@@ -254,6 +255,29 @@ function getUserLocation() {
     btn.classList.remove('loading');
     console.warn('Geolocation not supported');
   }
+}
+
+/**
+ * Add/update the blue user location marker
+ */
+function updateUserLocationMarker(lat, lng) {
+  // Remove existing marker if present
+  if (userLocationMarker) {
+    userLocationMarker.remove();
+  }
+
+  // Create user location marker element
+  const el = document.createElement('div');
+  el.className = 'user-location-marker';
+  el.innerHTML = `
+    <div class="user-location-pulse"></div>
+    <div class="user-location-dot"></div>
+  `;
+
+  // Create and add marker
+  userLocationMarker = new mapboxgl.Marker(el)
+    .setLngLat([lng, lat])
+    .addTo(map);
 }
 
 /**

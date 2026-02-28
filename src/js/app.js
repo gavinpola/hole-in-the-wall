@@ -348,10 +348,8 @@ function renderRestaurantList() {
  * Render a restaurant card
  */
 function renderRestaurantCard(r) {
-  const soloRating = r.visit_info?.solo_friendly?.rating || 0;
-  const soloDots = Array(5).fill(0).map((_, i) =>
-    `<span class="solo-dot ${i < soloRating ? 'filled' : ''}"></span>`
-  ).join('');
+  const hitwRating = calculateHITWRating(r);
+  const hitwDots = renderHITWDots(hitwRating);
 
   return `
     <div class="restaurant-card" data-id="${r.id}">
@@ -360,19 +358,25 @@ function renderRestaurantCard(r) {
           <h3 class="card-name-en">${r.name_en}</h3>
           <span class="card-name-ja jp">${r.name_ja}</span>
         </div>
-        ${r.authenticity?.tabelog_rating ? `
-          <div class="card-rating">
-            <span class="card-rating-value">${r.authenticity.tabelog_rating}</span>
-            <span class="card-rating-label">Tabelog</span>
-          </div>
-        ` : ''}
+        <div class="card-ratings">
+          ${r.authenticity?.tabelog_rating ? `
+            <div class="card-rating">
+              <span class="card-rating-value">${r.authenticity.tabelog_rating}</span>
+              <span class="card-rating-label">Tabelog</span>
+            </div>
+          ` : ''}
+        </div>
       </div>
       <p class="card-tagline">${r.tagline}</p>
+      <div class="card-hitw">
+        <span class="card-hitw-label">Hole-in-wall</span>
+        <div class="card-hitw-dots">${hitwDots}</div>
+      </div>
       <div class="card-meta">
         <span class="pill">${formatCuisine(r.experience?.cuisine_type)}</span>
+        <span class="pill">${formatArea(r.location?.area)}</span>
         <span class="pill">${r.experience?.price_range || '¥¥'}</span>
         ${r.visit_info?.payment?.cash_only ? '<span class="pill pill-gold">💴 Cash</span>' : ''}
-        ${soloRating >= 4 ? `<span class="pill pill-sage">Solo-friendly</span>` : ''}
       </div>
     </div>
   `;
@@ -554,6 +558,46 @@ function renderDetailView(r) {
       </div>
     ` : ''}
   `;
+}
+
+/**
+ * Calculate "Hole in the Wall" rating (1-5)
+ * Based on: local ratio, solo-friendliness, cash only, small/hidden nature
+ */
+function calculateHITWRating(r) {
+  let score = 0;
+
+  // Local ratio (0-2 points) - higher local crowd = more authentic
+  const localRatio = r.authenticity?.local_ratio || 0;
+  if (localRatio >= 0.8) score += 2;
+  else if (localRatio >= 0.6) score += 1.5;
+  else if (localRatio >= 0.4) score += 1;
+
+  // Solo friendly with counter seats (0-1.5 points) - counter = intimate
+  const soloRating = r.visit_info?.solo_friendly?.rating || 0;
+  const counterSeats = r.visit_info?.solo_friendly?.counter_seats || 0;
+  if (soloRating >= 4 && counterSeats > 0) score += 1.5;
+  else if (soloRating >= 3) score += 0.75;
+
+  // Cash only (0-0.5 points) - old school
+  if (r.visit_info?.payment?.cash_only) score += 0.5;
+
+  // Years operating (0-1 point) - established
+  const years = r.authenticity?.years_operating || 0;
+  if (years >= 30) score += 1;
+  else if (years >= 15) score += 0.5;
+
+  // Convert to 1-5 scale
+  return Math.min(5, Math.max(1, Math.round(score)));
+}
+
+/**
+ * Render HITW rating dots
+ */
+function renderHITWDots(rating) {
+  return Array(5).fill(0).map((_, i) =>
+    `<span class="hitw-dot ${i < rating ? 'filled' : ''}"></span>`
+  ).join('');
 }
 
 /**
