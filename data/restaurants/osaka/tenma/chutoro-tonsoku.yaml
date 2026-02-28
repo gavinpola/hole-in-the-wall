@@ -1,0 +1,65 @@
+# Chutoro to Tonsoku - 1-yen sake chaos in Tenma
+id: chutoro-tonsoku-tenma
+name_en: Chutoro to Tonsoku
+name_ja: 中トロと豚足
+tagline: "1-yen sake, call-and-response pig trotters, pure Osaka chaos."
+
+location:
+  region: osaka
+  area: tenma
+  coordinates:
+    lat: 34.7059
+    lng: 135.5119
+  wayfinding:
+    approach: "Exit JR Tenma Station and you're basically there - 3 seconds from the exit. Look for the energetic crowd spilling out."
+    floor: "1F"
+    entrance: "Impossible to miss when open - follow the noise and the queue"
+    landmarks: "Directly outside JR Tenma Station exit, in the Ura-Tenma drinking alley"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Peak hours get busy but turnover is fast."
+    notes: "Open until 4am - perfect late-night spot after bar hopping"
+  hours:
+    weekday: "12:00-04:00"
+    weekend: "12:00-04:00"
+    closed: "Irregular"
+  payment:
+    cash_only: false
+    notes: "Order via smartphone QR code system"
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Scan QR code to order. Look for '1円日本酒' (1-yen sake) on the digital menu. Point at photos for food."
+  solo_friendly:
+    rating: 4
+    counter_seats: 8
+    notes: "Counter seating available but the rowdy group energy is part of the experience"
+
+experience:
+  cuisine_type: izakaya
+  specialty: "Absurdly cheap drinks and interactive pig trotters ceremony"
+  signature_dish: "Braised pig trotters (tonsoku) with the call-and-response sauce pouring"
+  price_range: "¥"
+  avg_spend: "¥1,500-2,500"
+  drink_notes: "The 1-yen sake is real. Highballs under 200 yen. This is senbero paradise."
+  vibe_tags:
+    - rowdy
+    - late-night
+    - senbero
+    - participatory
+    - locals-only
+  atmosphere: "Controlled chaos. When someone orders pig trotters, staff pours sauce six times while the whole bar shouts 'Yoisho!' together. You will make friends whether you want to or not."
+
+authenticity:
+  years_operating: 8
+  local_ratio: 0.85
+  tabelog_rating: 3.45
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Peak Osaka drinking culture. The 1-yen sake isn't a gimmick - it's a loss leader that gets you in the door for cheap food and maximum good vibes. The chutoro (tuna) at 599 yen is genuinely excellent."

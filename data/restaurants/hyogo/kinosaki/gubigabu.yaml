@@ -1,0 +1,65 @@
+# GUBIGABU - Kinosaki's craft brewery on the willow-lined canal
+id: gubigabu-kinosaki
+name_en: GUBIGABU
+name_ja: グビガブ
+tagline: "Kinosaki's only craft brewery, overlooking the willow-lined canal."
+
+location:
+  region: hyogo
+  area: kinosaki
+  coordinates:
+    lat: 35.6270
+    lng: 134.8055
+  wayfinding:
+    approach: "Walk along the Otani River canal from the station. About 5 minutes in, look for the brewery on your right, just before Yanagi-yu bathhouse."
+    floor: "1F"
+    entrance: "Modern storefront with brewing equipment visible through windows"
+    landmarks: "Canal-side, near Yanagi-yu bathhouse. You'll smell the malt."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in, call for groups of 5+"
+    notes: "Reservations recommended for dinner in peak season"
+  hours:
+    weekday: "11:30-22:00 (LO 21:30)"
+    weekend: "11:30-22:00 (LO 21:30)"
+    closed: "Thursday, every 3rd Wednesday"
+  payment:
+    cash_only: false
+    notes: "Credit cards accepted"
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "English menu available. Try the beer flight to sample all four house brews."
+  solo_friendly:
+    rating: 4
+    counter_seats: 6
+    notes: "Counter overlooks the brewing operation. Tables have canal views."
+
+experience:
+  cuisine_type: brewery
+  specialty: "House-brewed craft beer paired with local Tajima ingredients"
+  signature_dish: "Beer flight of 4 house brews + Tajima beef and chicken platter"
+  price_range: "¥¥"
+  avg_spend: "¥3,500"
+  drink_notes: "Four beers on tap: try Kani Beer (Snow Beer) - brewed to pair with crab. Also Neapolitan pizza."
+  vibe_tags:
+    - craft-beer
+    - canal-view
+    - casual
+    - yukata-friendly
+    - groups-welcome
+  atmosphere: "Casual, modern, family-friendly. Willow trees frame canal views. Yukata-clad visitors sip beer between bathhouse visits."
+
+authenticity:
+  years_operating: 29
+  local_ratio: 0.40
+  tabelog_rating: 3.47
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Opened 1997. Owner chose Kinosaki for its pure water. The Kani Beer (crab beer) is brewed specifically to complement winter crab season. Great casual option between baths."

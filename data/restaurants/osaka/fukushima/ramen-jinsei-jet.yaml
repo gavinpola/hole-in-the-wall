@@ -1,0 +1,65 @@
+# Ramen Jinsei JET - Cult-status chicken ramen in Fukushima
+id: ramen-jinsei-jet-fukushima
+name_en: Ramen Jinsei JET
+name_ja: ラーメン人生JET
+tagline: "The shop that made Fukushima a ramen battleground."
+
+location:
+  region: osaka
+  area: fukushima
+  coordinates:
+    lat: 34.6953
+    lng: 135.4853
+  wayfinding:
+    approach: "2-minute walk from JR Fukushima Station. Exit and head south toward the residential streets. Look for the line - it's always there."
+    floor: "1F"
+    entrance: "Small storefront with noren curtain. Line forms along the building."
+    landmarks: "Near Fukumaru Dori gourmet street, south side of the station"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Line up. Wait times vary: 15-30 minutes typical, longer on weekends."
+    notes: "Go at 2-3pm or after 8pm for shorter waits. The rich tsukemen sells out evenings."
+  hours:
+    weekday: "11:00-15:00, 18:00-22:00"
+    weekend: "11:00-15:00, 18:00-22:00"
+    closed: "Check before going - occasional irregular holidays"
+  payment:
+    cash_only: false
+    notes: "Ticket machine at entrance. Buy your ticket before sitting."
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "Ticket machine has pictures. 'Tori-paitan' is their signature rich chicken broth. Add ajitama (egg) for 100 yen."
+  solo_friendly:
+    rating: 5
+    counter_seats: 18
+    notes: "All counter seating. Solo is the norm here."
+
+experience:
+  cuisine_type: ramen
+  specialty: "Rich chicken paitan broth simmered for hours"
+  signature_dish: "Tori-paitan ramen - thick, creamy chicken broth with medium-thick noodles"
+  price_range: "¥"
+  avg_spend: "¥900-1,200"
+  drink_notes: "Focus on the ramen. Basic drinks available."
+  vibe_tags:
+    - counter-only
+    - cult-following
+    - late-night-ramen
+    - focused-eating
+    - local-favorite
+  atmosphere: "Efficient slurping. The counter faces the open kitchen where you can watch the chef work. Everyone here knows what they want. Conversation is minimal - this is serious ramen business."
+
+authenticity:
+  years_operating: 16
+  local_ratio: 0.70
+  tabelog_rating: 3.77
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "When this opened in 2010, Fukushima had few ramen shops. JET's success sparked the 'Fukushima ramen wars' - now the neighborhood is known as a ramen battleground. The broth is intensely chicken-forward, rich without being heavy. Perfect shime (final dish) after a Fukushima bar crawl. Tabelog 100 winner for Osaka ramen."

@@ -1,0 +1,65 @@
+# Fukuya - Tiny soba and sake bar
+id: fukuya-omachi
+name_en: Fukuya
+name_ja: ふくや
+tagline: "Five seats. Yamagata soba. Sake that flows like conversation."
+
+location:
+  region: kamakura
+  area: omachi
+  coordinates:
+    lat: 35.3175
+    lng: 139.5510
+  wayfinding:
+    approach: "From Kamakura Station, head east toward Omachi area. About 10-minute walk. On a quiet residential street - look for a tiny storefront that feels more bar than restaurant."
+    floor: "1F"
+    entrance: "Small entrance. Easy to miss. The intimate size is the point."
+    landmarks: "Omachi neighborhood, away from the main tourist routes"
+
+visit_info:
+  reservation:
+    required: true
+    how: "Call ahead or try walk-in if you're lucky. Only 5 seats."
+    notes: "Reservations strongly recommended for dinner. Phone: +81 70-9092-2980"
+  hours:
+    weekday: "11:00-15:00, 18:00-22:00"
+    weekend: "11:00-22:00"
+    closed: "Tuesday"
+  payment:
+    cash_only: true
+    notes: "Cash only. Small shop."
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Point at the menu or at what others are having. Basic Japanese phrases help. The owner appreciates the effort."
+  solo_friendly:
+    rating: 5
+    counter_seats: 5
+    notes: "Counter-only. Perfect for solo diners. Intimate setting where you'll likely chat with the owner or neighbors."
+
+experience:
+  cuisine_type: soba
+  specialty: "Yamagata-style soba with exceptional Yamagata sake selection"
+  signature_dish: "Tori chuka soba and nishin (herring) soba - handmade noodles with rustic flavor"
+  price_range: "¥¥"
+  avg_spend: "¥2,500-4,000"
+  drink_notes: "Outstanding sake from Yamagata region. The owner knows his craft. Ask for recommendations."
+  vibe_tags:
+    - counter-only
+    - sake-bar-vibes
+    - intimate
+    - local-secret
+    - craft-focused
+  atmosphere: "More izakaya than soba shop. Tight but cozy. The kind of place where strangers share recommendations and the owner remembers faces. Sake, noodles, conversation."
+
+authenticity:
+  years_operating: 10
+  local_ratio: 0.85
+  tabelog_rating: 3.48
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "True hidden gem. Five seats means locals only - tourists don't know it exists. The Yamagata soba and sake pairing is exceptional. Come for lunch noodles or evening drinks. Not for everyone - Japanese language helps, but for soba lovers willing to venture off the beaten path, this is the real deal."

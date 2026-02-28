@@ -1,0 +1,65 @@
+# Yamasoba - Folk-art soba shop with the famous tororo
+id: yamasoba-yumoto
+name_en: Yamasoba
+name_ja: 山そば
+tagline: "Hakone spring water soba, topped with wild mountain yam."
+
+location:
+  region: hakone
+  area: yumoto
+  coordinates:
+    lat: 35.2330
+    lng: 139.1030
+  wayfinding:
+    approach: "Exit Hakone-Yumoto Station and walk straight ahead. The restaurant is directly across from the station, about 2 minutes walk. Two-story traditional building."
+    floor: "1F-2F"
+    entrance: "Traditional storefront with folk-art style wooden signage. You can't miss it from the station."
+    landmarks: "Right in front of Hakone-Yumoto Station. If you can see the station, you can see Yamasoba."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Queue during lunch rush (11:30-13:00)."
+    notes: "92 seats across 2 floors - larger than most soba shops. Wait times manageable."
+  hours:
+    weekday: "11:00-17:00"
+    weekend: "11:00-18:00"
+    closed: "Thursday"
+  payment:
+    cash_only: true
+    notes: "Cash only. There's an ATM at the station if needed."
+  language:
+    english_menu: true
+    english_spoken: "none"
+    order_tip: "The tororo soba (grated yam) is the signature. In winter, get it warm. Summer, cold. Ask for extra wasabi."
+  solo_friendly:
+    rating: 4
+    counter_seats: 12
+    notes: "Mix of counter and table seating. Solo diners common - this is a quick, focused soba meal."
+
+experience:
+  cuisine_type: soba
+  specialty: "Handmade soba using Hakone spring water, served with locally foraged jinenjo (wild mountain yam)"
+  signature_dish: "Tororo soba - cold or hot soba topped with freshly grated jinenjo yam. Silky, earthy, restorative."
+  price_range: "¥"
+  avg_spend: "¥1,400-1,800"
+  drink_notes: "Focus on the soba. Tea is served. Some sake available."
+  vibe_tags:
+    - traditional
+    - folk-art
+    - quick-meal
+    - station-adjacent
+    - restorative
+  atmosphere: "Two-story folk-art style building. Warm wood, handmade ceramics, the smell of fresh soba. Feels like stepping into a countryside farmhouse."
+
+authenticity:
+  years_operating: 40
+  local_ratio: 0.50
+  tabelog_rating: 3.25
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "The jinenjo (wild mountain yam) is foraged from nearby mountains between October and March - that's peak season for authentic tororo. The yam is a natural binder, giving the soba its distinctive chewy texture. Perfect for tired marathon runners - the tororo is said to aid recovery. Hidden menu: their tempura tendon (rice bowl) is legendary among regulars."

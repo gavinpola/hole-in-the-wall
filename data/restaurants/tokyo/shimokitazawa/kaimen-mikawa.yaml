@@ -1,0 +1,67 @@
+# Kaimen Mikawa - Refined clam ramen in Shimokitazawa
+id: kaimen-mikawa-shimokitazawa
+name_en: Kaimen Mikawa
+name_ja: 貝麺みかわ
+tagline: "7-seat counter. Clam broth perfection. A former hotel chef's obsession."
+
+location:
+  region: tokyo
+  area: shimokitazawa
+  coordinates:
+    lat: 35.6618
+    lng: 139.6683
+  wayfinding:
+    approach: "Exit Shimokitazawa Station from the Keio Inokashira Line exit. Turn left and walk about 1 minute. Look for the small, clean storefront with the noren curtain."
+    floor: "1F"
+    entrance: "Minimalist entrance with white noren. Clean, refined aesthetic - not your typical ramen joint."
+    landmarks: "Very close to Shimokitazawa Station. In the quieter area away from the main vintage shopping streets."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in only. Queue outside if full - usually moves quickly."
+    notes: "Only 7 seats, so expect a short wait during peak hours (lunch rush, dinner 18:00-20:00)."
+  hours:
+    weekday: "11:00-15:00, 17:00-21:00"
+    weekend: "11:00-15:00, 17:00-21:00"
+    closed: "Wednesday"
+  payment:
+    cash_only: false
+    notes: "Cards, Suica, PayPay accepted. Surprisingly modern for a tiny ramen shop."
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Use the ticket machine at entrance. Photos on buttons. Shio (salt) or shoyu (soy sauce) are the main choices."
+  solo_friendly:
+    rating: 5
+    counter_seats: 7
+    notes: "Counter-only. Perfect for solo ramen pilgrimage. Focus on your bowl."
+
+experience:
+  cuisine_type: ramen
+  specialty: "Clam-based (kai) ramen with refined, clear broth"
+  signature_dish: "Shio ramen - the pure salt-based broth shows off the clam essence"
+  price_range: "¥"
+  avg_spend: "¥1,000-1,500"
+  drink_notes: "This is a ramen-focused shop. Beer available but most come for the bowl."
+  vibe_tags:
+    - counter-only
+    - ramen-focused
+    - refined
+    - local-crowd
+    - chef-driven
+  atmosphere: "Quiet, focused, contemplative. The chef trained as a hotel kaiseki chef before opening this spot. Every element is considered."
+
+authenticity:
+  years_operating: 6
+  local_ratio: 0.75
+  tabelog_rating: 3.65
+  awards: []
+  media_mentions: []
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Clam ramen is rare in Tokyo. The former hotel chef brings kaiseki precision to a 7-seat counter. Perfect post-run carb load."

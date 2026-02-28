@@ -1,0 +1,65 @@
+# Kinosuke - Hakone's master of charcoal-grilled himono
+id: kinosuke-yumoto
+name_en: Kinosuke
+name_ja: 喜之助
+tagline: "Charcoal-grilled himono perfection, 2 minutes from the station."
+
+location:
+  region: hakone
+  area: yumoto
+  coordinates:
+    lat: 35.2325
+    lng: 139.1040
+  wayfinding:
+    approach: "Exit Hakone-Yumoto Station and turn left. Walk along the main road for about 2 minutes. Look for a traditional wooden storefront across from 7-Eleven."
+    floor: "1F"
+    entrance: "Traditional wooden facade with noren curtain. You'll smell the charcoal smoke."
+    landmarks: "Directly across from 7-Eleven Yumoto. Near the main bridge."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in, but expect lines at lunch. Dinner reservations accepted by phone."
+    notes: "Weekday lunch is less crowded. Prime time waits can be 30-60 minutes."
+  hours:
+    weekday: "11:30-14:30 (LO 14:00), 17:30-22:00 (LO 21:30)"
+    weekend: "11:30-22:00 (LO 21:30)"
+    closed: "Monday"
+  payment:
+    cash_only: false
+    notes: "Credit cards accepted"
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "Point at photos if needed. The dried fish (himono) sets are straightforward. Watch them grill your fish over binchotan charcoal."
+  solo_friendly:
+    rating: 5
+    counter_seats: 8
+    notes: "Counter seats let you watch the master grill your fish. Perfect for solo diners - this is a focused eating experience."
+
+experience:
+  cuisine_type: seafood
+  specialty: "Charcoal-grilled himono (dried fish) using binchotan, with fish from nearby Sagami Bay"
+  signature_dish: "Kinosuke Set - grilled dried horse mackerel (aji) with rice, miso soup, pickles"
+  price_range: "¥¥"
+  avg_spend: "¥2,000-3,000"
+  drink_notes: "Local sake available. Good beer selection. Save room for the fish."
+  vibe_tags:
+    - counter-dining
+    - traditional
+    - post-onsen
+    - charcoal-smoke
+    - local-favorite
+  atmosphere: "Warm wood interior, smoke from the charcoal grill, the sizzle of fish. Staff in traditional aprons. Feels like you're in a local's home."
+
+authenticity:
+  years_operating: 15
+  local_ratio: 0.65
+  tabelog_rating: 3.42
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "The owner adjusts sauce and grilling time for each fish type. Vegetables are locally grown in Hakone. Perfect post-onsen meal - the smoky, salty fish with cold beer hits different after a long soak."

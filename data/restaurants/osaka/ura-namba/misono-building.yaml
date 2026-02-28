@@ -1,0 +1,66 @@
+# Misono Building - 1950s bar complex frozen in time
+id: misono-building-uranamba
+name_en: Misono Building
+name_ja: 味園ビル
+tagline: "A 1950s entertainment complex where 30+ tiny bars hide in neon-lit corridors."
+
+location:
+  region: osaka
+  area: ura-namba
+  coordinates:
+    lat: 34.6655
+    lng: 135.5078
+  wayfinding:
+    approach: "From Nippombashi Station Exit 5, walk 4 minutes toward Sennichimae. The building looks like a relic - peeling paint, old signage. That's the one."
+    floor: "B1-3F"
+    entrance: "Multiple entrances. The basement izakaya zone is accessed from street level stairs going down. 2F and 3F bars have separate stairwell."
+    landmarks: "2-9 Sennichimae, Chuo Ward - can't miss the faded retro facade"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in and explore. Each bar is independent - just poke your head in."
+    notes: "Best experienced as a bar crawl. Hit 3-4 spots in one night."
+  hours:
+    weekday: "18:00-late (varies by bar)"
+    weekend: "18:00-late (varies by bar)"
+    closed: "Varies by individual bar"
+  payment:
+    cash_only: true
+    notes: "Most bars are cash only. Bring plenty of yen."
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Beer or highball is always safe. Point at bottles. Smile. Osaka people are friendly."
+  solo_friendly:
+    rating: 5
+    counter_seats: 0
+    notes: "Perfect for solo exploration. Each bar seats 5-10 people at most. You'll chat with strangers."
+
+experience:
+  cuisine_type: bar-complex
+  specialty: "Not about the food - this is about the atmosphere and the bar-hopping experience"
+  signature_dish: "Simple bar snacks vary by establishment"
+  price_range: "¥"
+  avg_spend: "¥1,500-3,000"
+  drink_notes: "Cheap drinks across most bars. Some have themed cocktails. Whisky selection varies wildly."
+  vibe_tags:
+    - retro-showa
+    - bar-crawl
+    - time-capsule
+    - underground-culture
+    - late-night
+    - quirky
+  atmosphere: "Stepping into another era. Narrow corridors lined with tiny doors, each opening into a different world - retro video game bars, jazz joints, themed snacks, hole-in-the-wall whisky dens. Some nights there are live performances or quiz nights. The whole building feels like it shouldn't exist anymore, but it does, and that's the magic."
+
+authenticity:
+  years_operating: 70
+  local_ratio: 0.85
+  tabelog_rating: 0.0
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Built in 1956, Misono was once the heart of Osaka nightlife - cabarets, dance halls, saunas. Now it's a maze of independent bars, each with its own character. This isn't one restaurant - it's a destination. Start in the basement for izakaya vibes, then work your way up for cocktail bars. The kind of place even some Osaka locals don't know about."

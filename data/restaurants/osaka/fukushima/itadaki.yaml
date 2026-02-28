@@ -1,0 +1,65 @@
+# ITADAKI - Kyoto-style okonomiyaki in foodie Fukushima
+id: itadaki-fukushima
+name_en: ITADAKI
+name_ja: いただき
+tagline: "Kyoto-born negiyaki loaded with heritage green onions and beef tendon."
+
+location:
+  region: osaka
+  area: fukushima
+  coordinates:
+    lat: 34.6941
+    lng: 135.4831
+  wayfinding:
+    approach: "From Shin-Fukushima Station, walk 3 minutes into the dining streets. It's tucked away - look for a small entrance, easy to miss if you're not looking."
+    floor: "1F"
+    entrance: "Small storefront. Step inside and you'll smell the griddle."
+    landmarks: "Near Shin-Fukushima Station, in the dense restaurant zone"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Small space so peak dinner hours can have a short wait."
+    notes: "Counter seats fill first - get there early for the best experience"
+  hours:
+    weekday: "17:00-23:00"
+    weekend: "17:00-23:00"
+    closed: "Check ahead - occasional closures"
+  payment:
+    cash_only: true
+    notes: "Cash only"
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Point at menu. 'Negiyaki' is the signature - green onion pancake. Add 'gyusuji' (beef tendon) for the full experience."
+  solo_friendly:
+    rating: 5
+    counter_seats: 8
+    notes: "Counter seats face the teppan griddle. Watch the owner work - it's mesmerizing."
+
+experience:
+  cuisine_type: okonomiyaki
+  specialty: "Kyoto-style negiyaki with 1300-year-old heritage green onions"
+  signature_dish: "Negiyaki with Kujo negi and beef tendon - the owner's Kyoto roots on a plate"
+  price_range: "¥"
+  avg_spend: "¥1,500-2,500"
+  drink_notes: "Beer and highballs. Keep it simple, focus on the food."
+  vibe_tags:
+    - counter-only
+    - teppan-grill
+    - kyoto-style
+    - hidden-gem
+    - chef-focused
+  atmosphere: "Intimate teppan counter. The Kyoto-born owner takes pride in every pancake, using Kujo negi - green onions with 1300 years of cultivation history. The space is small, the focus intense. You'll watch each negiyaki come together, crispy edges and soft centers."
+
+authenticity:
+  years_operating: 10
+  local_ratio: 0.85
+  tabelog_rating: 3.48
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Most visitors to Osaka eat Osaka-style okonomiyaki. This place offers something different - the owner's Kyoto heritage brought to Osaka's foodie neighborhood. The negiyaki is lighter than standard okonomiyaki, more about the sweetness of those legendary green onions. The original sauce recipe has a spicy version for those who want heat. Perfect dinner before hitting Fukushima's bar scene."

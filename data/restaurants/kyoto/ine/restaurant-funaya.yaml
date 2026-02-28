@@ -1,0 +1,65 @@
+# Restaurant Funaya - Roadside station with panoramic boathouse views
+id: restaurant-funaya-ine
+name_en: Restaurant Funaya
+name_ja: レストラン舟屋
+tagline: "Fisherman's son serves the morning catch. 230 boathouses below."
+
+location:
+  region: kyoto
+  area: ine
+  coordinates:
+    lat: 35.6767
+    lng: 135.2736
+  wayfinding:
+    approach: "From Ine bus stop, it's a steep 5-minute walk uphill. Take the road toward Michi-no-Eki (roadside station). Look for the large parking lot."
+    floor: "2F of Michi-no-Eki Funaya no Sato Ine"
+    entrance: "Enter the roadside station building, restaurant is on the second floor"
+    landmarks: "Hard to miss - the only building on the hill with a large parking lot and observation deck. Mapcode: 652 605 488"
+
+visit_info:
+  reservation:
+    required: false
+    how: "No reservations. Walk-in only."
+    notes: "Arrive before noon for best selection. Popular items sell out. Closes early when food runs out."
+  hours:
+    weekday: "10:00-17:00 (L.O. 16:00), meals 11:00-15:00"
+    weekend: "10:00-17:00 (L.O. 16:00), meals 11:00-15:00"
+    closed: "Tuesday. Winter hours may be shorter."
+  payment:
+    cash_only: true
+    notes: "Self-service register (self-checkout). Cash only. No ATM nearby - bring cash from Amanohashidate."
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Use the self-service register. Picture menu available. Point at what you want."
+  solo_friendly:
+    rating: 4
+    counter_seats: 0
+    notes: "No counter but tables are spacious. Lots of solo visitors. Very casual - no awkwardness eating alone."
+
+experience:
+  cuisine_type: seafood
+  specialty: "Fresh-off-the-boat seafood from Ine fishing port. Manager personally selects at dawn market."
+  signature_dish: "Kaisen-don (seafood bowl) packed with the day's catch. Winter: buri sashimi and shabu-shabu. Summer: 3-year rock oysters."
+  price_range: "¥¥"
+  avg_spend: "¥1,500-2,500"
+  drink_notes: "Basic selection. Focus on the food."
+  vibe_tags:
+    - panoramic-view
+    - casual
+    - local-catch
+    - family-run
+    - no-frills
+  atmosphere: "Casual roadside station dining with unbeatable views. The owner was born to a fishing family and worked decades at the fishing co-op. He knows every fisherman and their catch."
+
+authenticity:
+  years_operating: 20
+  local_ratio: 0.80
+  tabelog_rating: 3.46
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Best value seafood in Ine. The manager Hideki Nitta is a fish specialist who personally selects at the port each morning. Downstairs shop sells heshiko (fermented fish in rice bran) to take home."

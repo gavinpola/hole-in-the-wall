@@ -1,0 +1,65 @@
+# Suzuka - Retro izakaya where Hakone locals unwind
+id: suzuka-yumoto
+name_en: Suzuka
+name_ja: 鈴鹿
+tagline: "The tiny izakaya where Hakone workers drink after their shift."
+
+location:
+  region: hakone
+  area: yumoto
+  coordinates:
+    lat: 35.2328
+    lng: 139.1038
+  wayfinding:
+    approach: "Exit Hakone-Yumoto Station and turn right. Walk 60 seconds. Look for a narrow alley on your left between shops. Suzuka is tucked inside."
+    floor: "1F"
+    entrance: "Small sign, easy to miss. Down a tiny alley - if you're walking past tourist shops, you've gone too far."
+    landmarks: "Near the main shopping street, but hidden in a side alley. Look for the red lantern."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Small space fills up on weekends."
+    notes: "Opens at 5pm. Get there early for counter seats."
+  hours:
+    weekday: "17:00-23:00 (LO 22:30)"
+    weekend: "17:00-23:00 (LO 22:30)"
+    closed: "Wednesday"
+  payment:
+    cash_only: true
+    notes: "Cash only. No credit cards, no electronic money. ATM at 7-Eleven nearby."
+  language:
+    english_menu: true
+    english_spoken: "none"
+    order_tip: "Point at menu items. Try 'osusume' (recommendation) and let them choose. Sashimi moriawase (platter) is a safe bet."
+  solo_friendly:
+    rating: 5
+    counter_seats: 6
+    notes: "Counter seats face the kitchen. Solo diners blend right in with the ryokan workers having their after-work drink."
+
+experience:
+  cuisine_type: izakaya
+  specialty: "Fresh sashimi from Sagami Bay, grilled dishes, seasonal vegetables"
+  signature_dish: "Sashimi moriawase (assorted sashimi platter) - whatever's fresh that day"
+  price_range: "¥¥"
+  avg_spend: "¥3,000-4,000"
+  drink_notes: "Try Hakoneyama sake - local and not widely available. Good shochu selection. Beer on tap."
+  vibe_tags:
+    - local-hangout
+    - retro
+    - cash-only
+    - late-night
+    - post-onsen
+  atmosphere: "Cramped in the best way. Decades of smoke have stained the walls. Locals at the counter discussing their day. This is where Hakone sleeps after the tourists leave."
+
+authenticity:
+  years_operating: 30
+  local_ratio: 0.80
+  tabelog_rating: 3.36
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Popular with ryokan and hotel staff who work in Hakone's hospitality industry. The kind of place where regulars have their own shochu bottles stored behind the bar. Fish is delivered daily from the coast."

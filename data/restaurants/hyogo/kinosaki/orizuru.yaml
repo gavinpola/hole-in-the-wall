@@ -1,0 +1,65 @@
+# Orizuru - Kinosaki's premier sushi since 1942
+id: orizuru-kinosaki
+name_en: Orizuru
+name_ja: をり鶴
+tagline: "Three generations of sushi mastery, one minute from Gosho-no-yu bathhouse."
+
+location:
+  region: hyogo
+  area: kinosaki
+  coordinates:
+    lat: 35.6285
+    lng: 134.8092
+  wayfinding:
+    approach: "From Gosho-no-yu bathhouse, walk 30 seconds toward the station. Look for the traditional wooden facade on your left."
+    floor: "1F"
+    entrance: "Traditional wooden storefront with white noren"
+    landmarks: "Directly opposite the canal, between Gosho-no-yu and Ichino-yu bathhouses"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in welcome, call ahead for dinner on weekends"
+    notes: "Lunch is easy, dinner gets busy after 6pm in crab season"
+  hours:
+    weekday: "11:00-14:00, 17:00-21:00"
+    weekend: "11:00-14:00, 17:00-21:00"
+    closed: "Tuesday, 2nd/4th Wednesday"
+  payment:
+    cash_only: false
+    notes: "Credit cards accepted, PayPay available"
+  language:
+    english_menu: false
+    english_spoken: "minimal"
+    order_tip: "Point at the display case. The kaisen-don (seafood bowl) needs no translation."
+  solo_friendly:
+    rating: 5
+    counter_seats: 10
+    notes: "Counter seats face the sushi master. Perfect post-bath solo meal."
+
+experience:
+  cuisine_type: sushi
+  specialty: "Fresh sushi and sashimi from Tsuiyama Port, 10 minutes away"
+  signature_dish: "Kaisen-don (seafood bowl) at lunch, premium nigiri omakase for dinner"
+  price_range: "¥¥"
+  avg_spend: "¥1,500 lunch, ¥5,500 dinner"
+  drink_notes: "Local sake pairs perfectly. Ask for Tajima region recommendations."
+  vibe_tags:
+    - counter-seating
+    - three-generations
+    - post-bath-dining
+    - local-catch
+    - yukata-welcome
+  atmosphere: "Refined but unpretentious. Yukata-clad visitors mix with locals at the counter, watching the third-generation master work."
+
+authenticity:
+  years_operating: 84
+  local_ratio: 0.60
+  tabelog_rating: 3.53
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Kinosaki's most celebrated sushi restaurant. Founded 1942, passed down through three generations of sushi masters. Essential stop after evening bath."

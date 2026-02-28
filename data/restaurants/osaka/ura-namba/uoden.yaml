@@ -1,0 +1,65 @@
+# Uoden - Creative seafood in the backstreets of Namba
+id: uoden-uranamba
+name_en: Uoden
+name_ja: ウオデン
+tagline: "Where Osaka's chefs drink - creative seafood in Namba's hidden alleys."
+
+location:
+  region: osaka
+  area: ura-namba
+  coordinates:
+    lat: 34.6631
+    lng: 135.5052
+  wayfinding:
+    approach: "From Nankai Namba Station north exit, walk 5 minutes into the narrow backstreets. You're looking for the Ura-Namba zone - smaller signs, local crowds, away from the Dotonbori neon."
+    floor: "1F"
+    entrance: "Small izakaya entrance. Look for the warm glow and seafood display."
+    landmarks: "In the heart of Ura-Namba, between Namba and Nippombashi stations"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Reservations accepted but walk-ins usually fine for counter seats."
+    notes: "Weekend afternoons open at 2pm for daytime drinking"
+  hours:
+    weekday: "17:00-23:30"
+    weekend: "14:00-00:00"
+    closed: "Irregular"
+  payment:
+    cash_only: false
+    notes: "Cards accepted. Reservations available online."
+  language:
+    english_menu: false
+    english_spoken: "basic"
+    order_tip: "Point at the daily specials board or the fish in the case. Trust the chef's recommendations."
+  solo_friendly:
+    rating: 4
+    counter_seats: 8
+    notes: "Counter seats face the kitchen. Perfect for watching the chef work."
+
+experience:
+  cuisine_type: seafood-izakaya
+  specialty: "Daily-selected seasonal fish, creatively prepared"
+  signature_dish: "Chef's choice sashimi platter - whatever came in fresh that day"
+  price_range: "¥¥"
+  avg_spend: "¥3,000-5,000"
+  drink_notes: "Good sake selection to pair with the seafood. Ask what they recommend."
+  vibe_tags:
+    - hidden-gem
+    - chef-driven
+    - seasonal-fish
+    - local-favorite
+    - creative-izakaya
+  atmosphere: "Intimate and welcoming. The kind of place where the chef remembers regulars and puts extra care into each plate. Fortune chopsticks given to guests - a playful touch that shows they care about the experience."
+
+authenticity:
+  years_operating: 12
+  local_ratio: 0.80
+  tabelog_rating: 3.52
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Ura-Namba has evolved from salary-man territory to a serious foodie destination. Uoden represents the new wave - creative, quality-focused, but still with that warm Osaka hospitality. The 2pm weekend opening makes it perfect for a leisurely daytime drinking session before hitting the nightlife."

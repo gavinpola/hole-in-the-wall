@@ -1,0 +1,65 @@
+# Woof Curry - Spice curry hidden gem
+id: woof-curry-hase
+name_en: Woof Curry
+name_ja: ウーフカレー
+tagline: "Small but mighty. Deep spice. Kamakura's cult curry."
+
+location:
+  region: kamakura
+  area: hase
+  coordinates:
+    lat: 35.3105
+    lng: 139.5360
+  wayfinding:
+    approach: "From Hase Station, head toward Yuigahama Beach along the main street. About 5 minutes walk. Look for a small curry shop on your left - the smell will guide you."
+    floor: "1F-2F"
+    entrance: "Small street-level entrance. Compact interior. Live music events sometimes on the 2nd floor."
+    landmarks: "On Yuigahama-dori, between Hase Station and the beach"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in. Small space so you might wait at peak lunch."
+    notes: "Best to arrive before noon rush or mid-afternoon."
+  hours:
+    weekday: "11:00-21:00"
+    weekend: "11:00-21:00"
+    closed: "Wednesday"
+  payment:
+    cash_only: true
+    notes: "Cash only."
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "Menu is straightforward. Point to what you want. Spice levels are serious - don't underestimate."
+  solo_friendly:
+    rating: 5
+    counter_seats: 6
+    notes: "Counter seating on first floor is perfect for solo diners. Watch the curry being made."
+
+experience:
+  cuisine_type: curry
+  specialty: "Unique spice curry - not European, not soup curry, something distinctly Woof"
+  signature_dish: "Special curry with choice of meat (beef, pork, or chicken) with boiled egg"
+  price_range: "¥"
+  avg_spend: "¥1,200-1,500"
+  drink_notes: "Lassi to cool the spice. Beer available."
+  vibe_tags:
+    - spice-forward
+    - cafe-atmosphere
+    - local-favorite
+    - counter-seats
+    - cult-following
+  atmosphere: "The smell hits you from outside. Small, no-frills interior where curry is king. Locals hunched over bowls, absorbed in their meal. Occasionally live music drifts down from upstairs."
+
+authenticity:
+  years_operating: 18
+  local_ratio: 0.70
+  tabelog_rating: 3.35
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Cult following among Kamakura residents. The curry defies categorization - deep, richly spiced, with perfect balance of heat and sweetness. Temple visitors walk right past to crowds on Komachi-dori. Their loss. One reviewer called it 'my favorite curry restaurant in Kamakura' and many locals would agree."

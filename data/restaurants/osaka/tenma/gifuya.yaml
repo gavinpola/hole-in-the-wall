@@ -1,0 +1,65 @@
+# Gifuya - 100-year-old kushikatsu under the tracks
+id: gifuya-tenma
+name_en: Gifuya
+name_ja: 大衆酒場 ぎふや
+tagline: "38-yen highballs under rumbling train tracks since 1916."
+
+location:
+  region: osaka
+  area: tenma
+  coordinates:
+    lat: 34.7055
+    lng: 135.5122
+  wayfinding:
+    approach: "From JR Tenma Station, head toward the elevated tracks. The bar is directly underneath them - you'll hear trains rumbling overhead."
+    floor: "1F-2F"
+    entrance: "Look for the classic izakaya lanterns. Counter downstairs, tables upstairs."
+    landmarks: "Under the JR elevated tracks near Tenjinbashi-suji Shopping Street"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Counter fills up after 6pm on weekdays."
+    notes: "Perfect first stop for a Tenma bar hop"
+  hours:
+    weekday: "15:00-23:00"
+    weekend: "15:00-23:00"
+    closed: "Irregular"
+  payment:
+    cash_only: true
+    notes: "Cash only - Osaka old school"
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Point at what looks good. Kushikatsu is the move - order by the skewer."
+  solo_friendly:
+    rating: 5
+    counter_seats: 10
+    notes: "Counter seating on 1F is perfect for solo drinking. Regulars are friendly."
+
+experience:
+  cuisine_type: kushikatsu
+  specialty: "Deep-fried skewers and impossibly cheap drinks"
+  signature_dish: "Kushikatsu assortment - beef, pork belly, cheese, hormones"
+  price_range: "¥"
+  avg_spend: "¥1,000-2,000"
+  drink_notes: "Highballs at 38 yen. Draft beer 170 yen. Large bottles 330 yen. This is senbero at its finest."
+  vibe_tags:
+    - standing-bar
+    - retro-showa
+    - under-the-tracks
+    - senbero
+    - century-old
+  atmosphere: "Showa-era time capsule. Trains rumble overhead, regulars chat with the staff, and you wonder how they serve drinks this cheap and stay open. Pure Osaka working-class drinking culture."
+
+authenticity:
+  years_operating: 108
+  local_ratio: 0.90
+  tabelog_rating: 3.41
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "The original Gifuya dates to 1916 - this is the third Tenma location but maintains that century of tradition. The beef stew, simmered for hours, is a hidden gem among the kushikatsu. Perfect warm-up spot before diving deeper into Tenma's alleyways."

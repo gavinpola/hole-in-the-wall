@@ -1,0 +1,67 @@
+# Dachibin - Authentic Okinawan izakaya in Koenji
+id: dachibin-koenji
+name_en: Dachibin
+name_ja: 抱瓶
+tagline: "30 years of Okinawan soul food in punk-rock Koenji. Awamori flows until 5am."
+
+location:
+  region: tokyo
+  area: koenji
+  coordinates:
+    lat: 35.7052
+    lng: 139.6493
+  wayfinding:
+    approach: "Exit Koenji Station south exit. Walk toward the Look shopping arcade. The restaurant is about 3 minutes from the station, look for Okinawan decorations and the distinct island vibe."
+    floor: "1F-2F"
+    entrance: "Traditional Okinawan entrance with island decor. You'll recognize the tropical aesthetic immediately."
+    landmarks: "Near the Koenji shopping arcade, close to the vintage shops and live houses."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in welcome. Reservations recommended for groups of 4+."
+    notes: "Can accommodate large groups. Second floor has more seating."
+  hours:
+    weekday: "17:00-05:00"
+    weekend: "17:00-05:00"
+    closed: "Open daily"
+  payment:
+    cash_only: false
+    notes: "Cash preferred but cards accepted."
+  language:
+    english_menu: false
+    english_spoken: "minimal"
+    order_tip: "Menu in Japanese only. Use photos on menu and Google Translate. Staff friendly and patient."
+  solo_friendly:
+    rating: 4
+    counter_seats: 6
+    notes: "Counter seats on first floor. Mix of tables and tatami on second floor. Solo welcomed."
+
+experience:
+  cuisine_type: okinawan
+  specialty: "Authentic Okinawan cuisine with ingredients imported from the islands"
+  signature_dish: "Goya champuru, soki soba, rafute (braised pork belly)"
+  price_range: "¥¥"
+  avg_spend: "¥3,000-4,000"
+  drink_notes: "Awamori (Okinawan spirit) is the move. Orion Beer for something lighter. They have rare island awamori varieties."
+  vibe_tags:
+    - okinawan
+    - late-night
+    - local-crowd
+    - live-music
+    - deep-tokyo
+  atmosphere: "Island warmth in the middle of punk-rock Koenji. Shamisen concerts monthly. The owner's family has been cooking Okinawan food in Tokyo for over 30 years."
+
+authenticity:
+  years_operating: 30
+  local_ratio: 0.80
+  tabelog_rating: 3.45
+  awards: []
+  media_mentions: []
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Pioneered Okinawan cuisine in Tokyo. Monthly shamisen concerts. Opens until 5am - perfect for nightlife recovery or late-night cravings after live shows."

@@ -1,0 +1,67 @@
+# The Open Book - Literary standing bar in Golden Gai
+id: the-open-book-golden-gai
+name_en: The Open Book
+name_ja: THE OPEN BOOK
+tagline: "A writer's grandson serves lemon sours among floor-to-ceiling books."
+
+location:
+  region: tokyo
+  area: golden-gai
+  coordinates:
+    lat: 35.6937
+    lng: 139.7044
+  wayfinding:
+    approach: "Enter Golden Gai from the Hanazono Shrine side. Head to the 5th alley (Gobangai). Look for a discreet wooden door - it slides open, not obvious at all."
+    floor: "1F"
+    entrance: "Wooden sliding door that blends into the alley facade. No flashy signs - that's the point."
+    landmarks: "Gobangai (5th alley) of Golden Gai. Near the shrine entrance side."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Standing room only - when it's full, it's full."
+    notes: "Cover charge around 500 yen. Totally worth it."
+  hours:
+    weekday: "19:00-03:00"
+    weekend: "19:00-03:00"
+    closed: "Irregular"
+  payment:
+    cash_only: true
+    notes: "Cash only. Small bills appreciated in these tiny bars."
+  language:
+    english_menu: false
+    english_spoken: "basic"
+    order_tip: "Order the lemon sour - house specialty. Simple drinks, good conversation."
+  solo_friendly:
+    rating: 5
+    counter_seats: 0
+    notes: "Standing only, fits about 8 people max. Solo is the norm here - you'll end up talking to strangers."
+
+experience:
+  cuisine_type: standing_bar
+  specialty: "Fresh lemon sours and literary conversation"
+  signature_dish: "House lemon sour made with fresh lemon juice, shochu, and soda"
+  price_range: "¥¥"
+  avg_spend: "¥1,500-2,500"
+  drink_notes: "Lemon sour is the signature. Simple cocktails, whisky available. Not a cocktail bar - keep it simple."
+  vibe_tags:
+    - golden-gai
+    - standing-bar
+    - literary
+    - late-night
+    - intimate
+  atmosphere: "Books line every wall, floor to ceiling. The owner is grandson of Naoki Prize-winning author Komimasa Tanaka. Showa-era nostalgia meets modern simplicity."
+
+authenticity:
+  years_operating: 10
+  local_ratio: 0.60
+  tabelog_rating: 3.25
+  awards: []
+  media_mentions: []
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Unlike most Golden Gai spots, this one welcomes newcomers (the name is a hint). Literary pedigree adds depth. Perfect nightlife warm-up before deeper Golden Gai exploration."

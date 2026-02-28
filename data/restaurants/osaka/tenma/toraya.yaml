@@ -1,0 +1,65 @@
+# Toraya - Raw offal sashimi in smoky Tenma
+id: toraya-tenma
+name_en: Toraya
+name_ja: 虎や 大阪天満店
+tagline: "Fresh offal sashimi and shichirin grills in a smoke-filled standing bar."
+
+location:
+  region: osaka
+  area: tenma
+  coordinates:
+    lat: 34.7062
+    lng: 135.5127
+  wayfinding:
+    approach: "One minute walk from JR Tenma Station. Head into the narrow drinking alleys north of the station. Follow the smoke."
+    floor: "1F"
+    entrance: "Standing bar entrance, look for the glow of charcoal grills through the window"
+    landmarks: "In the Ura-Tenma backstreet izakaya zone"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Space is tight but turnover is constant."
+    notes: "Best visited as part of a Tenma bar crawl"
+  hours:
+    weekday: "16:00-23:00"
+    weekend: "16:00-23:00"
+    closed: "Irregular"
+  payment:
+    cash_only: true
+    notes: "Cash only"
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Point at the display case for sashimi. For grilling, watch what regulars order and follow their lead."
+  solo_friendly:
+    rating: 5
+    counter_seats: 12
+    notes: "Standing counter format is perfect for solo. You'll be shoulder to shoulder with salarymen - that's the point."
+
+experience:
+  cuisine_type: horumon
+  specialty: "Fresh offal - both raw sashimi style and grilled over shichirin"
+  signature_dish: "Liver and heart sashimi (only possible because of freshness)"
+  price_range: "¥"
+  avg_spend: "¥1,500-2,500"
+  drink_notes: "Cheap beer and shochu. This is about the meat."
+  vibe_tags:
+    - standing-bar
+    - smoky
+    - offal-specialist
+    - local-crowd
+    - adventurous-eating
+  atmosphere: "Smoky, tight, loud. The shichirin charcoal grills create a haze. Regulars know exactly what to order. If you're hesitant about offal, watch the person next to you and copy them."
+
+authenticity:
+  years_operating: 15
+  local_ratio: 0.95
+  tabelog_rating: 3.38
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Not for the squeamish - this is proper Osaka horumon culture. The freshness of the offal allows them to serve it raw, which you won't find at tourist spots. The liver sashimi is silky and clean-tasting when this fresh. Osaka's working-class food heritage at its most authentic."

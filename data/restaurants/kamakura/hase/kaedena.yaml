@@ -1,0 +1,65 @@
+# Kaedena - Traditional kamameshi pot rice
+id: kaedena-hase
+name_en: Kaedena
+name_ja: かえでな
+tagline: "Second-floor hideaway. Stone-pot rice. Seven delicate side dishes."
+
+location:
+  region: kamakura
+  area: hase
+  coordinates:
+    lat: 35.3103
+    lng: 139.5332
+  wayfinding:
+    approach: "From Hase Station, walk toward the Great Buddha. About 3 minutes in, look for a small building on your left - Kaedena is on the 2nd floor."
+    floor: "2F"
+    entrance: "Narrow stairs up from street level. Small wooden sign with the restaurant name."
+    landmarks: "Between Hase Station and Kotoku-in (Great Buddha), on the main pilgrim route"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in possible but expect 15-20 minute wait at lunch."
+    notes: "Dinner reservations recommended. Very popular with Japanese tourists."
+  hours:
+    weekday: "11:30-15:00, 17:30-21:00"
+    weekend: "11:30-15:00, 17:30-21:00"
+    closed: "Wednesday"
+  payment:
+    cash_only: true
+    notes: "Cash only. There's a 7-Eleven near Hase Station for ATM."
+  language:
+    english_menu: true
+    english_spoken: "minimal"
+    order_tip: "English menu exists but has limited options. Japanese menu has more variety - point or use photos."
+  solo_friendly:
+    rating: 4
+    counter_seats: 0
+    notes: "Tables seat 2-4. Solo diners welcome but you'll be at a small table. Cozy atmosphere."
+
+experience:
+  cuisine_type: kamameshi
+  specialty: "Traditional pot rice cooked in individual iron pots over flame, with local Kamakura vegetables"
+  signature_dish: "Salmon and salmon roe kamameshi set with seven seasonal side dishes"
+  price_range: "¥¥"
+  avg_spend: "¥1,500-2,000"
+  drink_notes: "Local Kamakura beer available. Small sake selection."
+  vibe_tags:
+    - cozy-hidden
+    - traditional
+    - temple-hopping-fuel
+    - seasonal
+    - local-ingredients
+  atmosphere: "Tucked-away calm. Wooden interior, natural light. The kind of peaceful lunch spot you want after temple crowds."
+
+authenticity:
+  years_operating: 15
+  local_ratio: 0.40
+  tabelog_rating: 3.42
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Hidden gem that delivers true taste of traditional Japanese comfort food. The seven side dishes change with seasons and showcase local Kamakura vegetables. Perfect fuel between Great Buddha and Hasedera visits."

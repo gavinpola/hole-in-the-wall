@@ -1,0 +1,65 @@
+# Sometaro - Self-grill okonomiyaki near Hasedera
+id: sometaro-hase
+name_en: Sometaro
+name_ja: 染太郎
+tagline: "Cook your own pancake. Husband-and-wife warmth. Temple views from upstairs."
+
+location:
+  region: kamakura
+  area: hase
+  coordinates:
+    lat: 35.3089
+    lng: 139.5328
+  wayfinding:
+    approach: "From Hase Station, walk toward Hasedera Temple. Right before the temple gate, look up - Sometaro is on the 2nd floor of the building on your right."
+    floor: "2F"
+    entrance: "Stairs up from street level. Look for the traditional okonomiyaki signage."
+    landmarks: "Directly in front of Hasedera Temple gate. You can't miss it."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in. Gets busy on weekends after temple crowds."
+    notes: "Best to come slightly before or after the noon rush."
+  hours:
+    weekday: "11:00-20:00"
+    weekend: "11:00-20:00"
+    closed: "Irregular"
+  payment:
+    cash_only: true
+    notes: "Cash preferred. Small amounts."
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "The owners will show you how to cook. Don't be shy - the wife is very patient and kind."
+  solo_friendly:
+    rating: 4
+    counter_seats: 0
+    notes: "Tables with teppan grills. Solo diners sit at small tables. The cooking experience is fun alone or with company."
+
+experience:
+  cuisine_type: okonomiyaki
+  specialty: "Classic Asakusa-style self-grill okonomiyaki and monjayaki"
+  signature_dish: "Seafood okonomiyaki - you cook it yourself on the teppan"
+  price_range: "¥"
+  avg_spend: "¥1,500"
+  drink_notes: "Beer and soft drinks available. Simple selection."
+  vibe_tags:
+    - hands-on
+    - nostalgic
+    - family-run
+    - temple-break
+    - wooden-interior
+  atmosphere: "Nostalgic wooden interior. Raised tatami seating with cushions. The charred aroma of pancakes cooking. Husband-and-wife hospitality that makes everyone feel at home."
+
+authenticity:
+  years_operating: 25
+  local_ratio: 0.35
+  tabelog_rating: 3.18
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Not a hidden location, but a genuine hole-in-the-wall experience. Tourists walk past to the temple without noticing. The husband-and-wife team creates real warmth. Great for an interactive meal between temple visits. Cheap, filling, and authentically retro."

@@ -1,0 +1,65 @@
+# Bon - Counter-only crab specialist
+id: bon-kinosaki
+name_en: Bon
+name_ja: ぼん
+tagline: "11 counter seats. One crab master. Melt-in-your-mouth sashimi."
+
+location:
+  region: hyogo
+  area: kinosaki
+  coordinates:
+    lat: 35.6265
+    lng: 134.8070
+  wayfinding:
+    approach: "From the station, walk 8 minutes toward town center on the main road. Small sign on the left side, easy to miss."
+    floor: "1F"
+    entrance: "Modest facade, look for the crab signage"
+    landmarks: "Main road through town, between station and Ichino-yu bathhouse"
+
+visit_info:
+  reservation:
+    required: false
+    how: "No reservations - first come, first served"
+    notes: "Arrive early in crab season (Nov-Mar). Fills up fast."
+  hours:
+    weekday: "11:00-14:00, 18:00-21:00"
+    weekend: "11:00-14:00, 18:00-21:00"
+    closed: "Tuesday"
+  payment:
+    cash_only: true
+    notes: "Cash only. ATM at convenience store near station."
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Point at the menu. Set courses are easiest - just indicate which price level."
+  solo_friendly:
+    rating: 5
+    counter_seats: 11
+    notes: "Counter-only, perfect for solo. Watch the master prepare your crab."
+
+experience:
+  cuisine_type: crab
+  specialty: "Matsuba crab (winter), fresh seafood (summer)"
+  signature_dish: "Crab sashimi - silky, sweet, impossibly fresh"
+  price_range: "¥¥"
+  avg_spend: "¥3,500-9,800"
+  drink_notes: "Basic sake and beer. Focus is on the crab."
+  vibe_tags:
+    - counter-only
+    - crab-specialist
+    - cash-only
+    - intimate
+    - winter-essential
+  atmosphere: "Tiny, homey, focused. The master runs everything himself while chatting with guests. No frills, just exceptional crab."
+
+authenticity:
+  years_operating: 15
+  local_ratio: 0.50
+  tabelog_rating: 3.06
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "Hidden gem for crab lovers. Counter-only format means you watch every step. The grilled crab is seared on teppan then lightly steamed. Come in winter for Matsuba crab season (Nov-Mar)."

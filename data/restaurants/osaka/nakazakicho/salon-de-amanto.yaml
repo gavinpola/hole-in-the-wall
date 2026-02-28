@@ -1,0 +1,65 @@
+# Salon de AManTo - Artist commune cafe in a 120-year-old house
+id: salon-de-amanto-nakazakicho
+name_en: Salon de AManTo
+name_ja: サロン・ド・アマント
+tagline: "Artist-run cafe in a century-old house that sparked Nakazakicho's revival."
+
+location:
+  region: osaka
+  area: nakazakicho
+  coordinates:
+    lat: 34.7088
+    lng: 135.5069
+  wayfinding:
+    approach: "From Nakazakicho Station Exit 2, walk 4 minutes into the narrow residential streets. Look for old wooden houses - you're in the right area."
+    floor: "1F-2F"
+    entrance: "Traditional wooden house entrance surrounded by greenery. It feels like walking into someone's home."
+    landmarks: "1-7-26 Nakazakinishi, Kita Ward - in the bohemian maze of old houses"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Large enough to usually have space."
+    notes: "Open 365 days a year. Perfect rainy day refuge."
+  hours:
+    weekday: "12:00-22:00"
+    weekend: "12:00-22:00"
+    closed: "Never"
+  payment:
+    cash_only: true
+    notes: "Cash only - keep the old-school vibe"
+  language:
+    english_menu: false
+    english_spoken: "basic"
+    order_tip: "Point at the menu. Coffee and curry are safe bets. Try the handmade desserts."
+  solo_friendly:
+    rating: 5
+    counter_seats: 6
+    notes: "Designed for lingering. Bring a book. Watch the artists come and go."
+
+experience:
+  cuisine_type: cafe
+  specialty: "Handmade comfort food in an art-filled space"
+  signature_dish: "Daily curry or the homestyle lunch set"
+  price_range: "¥"
+  avg_spend: "¥800-1,500"
+  drink_notes: "Good coffee, herbal teas. Evening transitions into more of a bar vibe."
+  vibe_tags:
+    - artist-commune
+    - century-old-house
+    - bohemian
+    - community-space
+    - daytime-refuge
+  atmosphere: "A living art space. The 120-year-old wooden house creaks with history. Rotating artists run the cafe, offering talks, workshops, performances. Kids from local schools stop by for free drinks after class. Evenings become more social. This isn't a polished cafe - it's a community that happens to serve coffee."
+
+authenticity:
+  years_operating: 25
+  local_ratio: 0.75
+  tabelog_rating: 3.25
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "When artist Jun Amanto opened this in 2001, Nakazakicho was a forgotten neighborhood of elderly residents in prewar houses. His renovation sparked a movement - now the whole area is a bohemian enclave of vintage shops and cafes. This is the original, and it still feels like the spiritual center of the neighborhood. Come for coffee, stay for the conversations."

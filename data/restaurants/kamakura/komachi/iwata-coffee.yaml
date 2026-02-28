@@ -1,0 +1,65 @@
+# Iwata Coffee - Historic kissaten with legendary pancakes
+id: iwata-coffee-komachi
+name_en: Iwata Coffee
+name_ja: イワタコーヒー店
+tagline: "Since 1945. John Lennon's table. Seven-centimeter pancakes."
+
+location:
+  region: kamakura
+  area: komachi
+  coordinates:
+    lat: 35.3192
+    lng: 139.5508
+  wayfinding:
+    approach: "From Kamakura Station east exit, turn right and walk 1 minute. Before the crowds of Komachi-dori pull you in, look for the classic kissaten facade on your right."
+    floor: "1F"
+    entrance: "Traditional cafe entrance. Old-fashioned glass door. Step inside and step back in time."
+    landmarks: "Just off Komachi-dori, near the station end. Beautiful inner courtyard visible from some seats."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in only. Expect a queue for the famous pancakes, especially on weekends."
+    notes: "Pancakes take 30 minutes to prepare. Worth every minute of wait."
+  hours:
+    weekday: "09:30-18:00"
+    weekend: "09:30-18:00"
+    closed: "Tuesday, and every second Wednesday"
+  payment:
+    cash_only: true
+    notes: "Cash only. Traditional establishment."
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "Order the hotcakes. That's why you're here. Coffee is excellent too - hand-dripped in classic kissaten style."
+  solo_friendly:
+    rating: 5
+    counter_seats: 4
+    notes: "Solo visitors common. Window seats overlooking the courtyard are perfect for reading or people-watching."
+
+experience:
+  cuisine_type: kissaten
+  specialty: "Classic kissaten coffee and towering thick-cut hotcakes"
+  signature_dish: "Double-stack hotcakes - two 7cm-thick pancakes that need 30 minutes to cook"
+  price_range: "¥¥"
+  avg_spend: "¥1,200-1,800"
+  drink_notes: "Hand-dripped coffee in the old tradition. Simple, strong, perfect."
+  vibe_tags:
+    - historic
+    - kissaten-classic
+    - courtyard-view
+    - literary-history
+    - slow-time
+  atmosphere: "Wood, leather, the clink of ceramic cups. Sunlight through windows onto a private courtyard. The kind of place where time moves differently. Three generations of owners, 80 years of history."
+
+authenticity:
+  years_operating: 80
+  local_ratio: 0.45
+  tabelog_rating: 3.55
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Not hidden, but deeply authentic. While tourists stream past to Komachi-dori shops, this 1945 kissaten remains a sanctuary. Nobel laureate Kawabata Yasunari wrote here. John Lennon and Yoko Ono visited. Now run by the third-generation owner. The pancakes became famous during Japan's retro-kissaten revival, but the soul of the place has never changed. Essential Kamakura."

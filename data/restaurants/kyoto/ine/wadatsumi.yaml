@@ -1,0 +1,65 @@
+# Wadatsumi - Sushi kappo overlooking Ine Bay
+id: wadatsumi-ine
+name_en: Wadatsumi
+name_ja: 海宮
+tagline: "Dragon Palace dining. Fresh-caught sushi with a view of 230 boathouses."
+
+location:
+  region: kyoto
+  area: ine
+  coordinates:
+    lat: 35.6775
+    lng: 135.2766
+  wayfinding:
+    approach: "From Ine bus stop, walk 8 minutes along the waterfront. Look for the modern Funaya Biyori building with large windows facing the bay."
+    floor: "1F counter, 2F tables"
+    entrance: "Glass doors of the Funaya Biyori tourism facility. Restaurant is inside on the right."
+    landmarks: "Inside the Funaya Biyori building. You can see the traditional funaya boathouses across the bay."
+
+visit_info:
+  reservation:
+    required: true
+    how: "Call 0772-32-1710 or book via official website funayabiyori.com"
+    notes: "Essential for dinner. Lunch may have availability but call ahead. Very limited seating."
+  hours:
+    weekday: "11:30-14:30 (L.O. 14:00), 17:00-20:30 (L.O. 20:00)"
+    weekend: "11:30-14:30 (L.O. 14:00), 17:00-20:30 (L.O. 20:00)"
+    closed: "Wednesday, Year-end/New Year holidays"
+  payment:
+    cash_only: false
+    notes: "Cards accepted. Rare for the area."
+  language:
+    english_menu: false
+    english_spoken: "minimal"
+    order_tip: "Point at the course menu or show yen amount for omakase. Staff patient with tourists but Japanese phrases help."
+  solo_friendly:
+    rating: 4
+    counter_seats: 10
+    notes: "10-seat counter on 1F perfect for solo diners. Watch the chef work while gazing at the bay."
+
+experience:
+  cuisine_type: seafood
+  specialty: "Sushi and kaiseki using same-day catch from Ine Bay"
+  signature_dish: "Omakase sushi featuring Ine buri (yellowtail) in winter, iwagaki (rock oyster) May-August"
+  price_range: "¥¥¥"
+  avg_spend: "¥4,000-8,000"
+  drink_notes: "Excellent local sake selection from the Tango region. Ask for pairing recommendations."
+  vibe_tags:
+    - waterfront
+    - counter-dining
+    - local-ingredients
+    - intimate
+    - special-occasion
+  atmosphere: "Modern yet warm. Floor-to-ceiling windows frame the iconic boathouses. Named after the sea god Wadatsumi and the Urashima legend's Dragon Palace."
+
+authenticity:
+  years_operating: 8
+  local_ratio: 0.70
+  tabelog_rating: 3.41
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "The most refined dining option in Ine. Opened 2017 as part of tourism revitalization but sources only from local fishermen. Winter buri and summer rock oysters are legendary."

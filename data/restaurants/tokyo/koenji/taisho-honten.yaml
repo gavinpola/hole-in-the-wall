@@ -1,0 +1,67 @@
+# Taisho Honten - 40-year yakitori institution in Koenji
+id: taisho-honten-koenji
+name_en: Taisho Honten
+name_ja: 大将 本店
+tagline: "40 years. Secret recipe. Three floors of smoky, budget yakitori bliss."
+
+location:
+  region: tokyo
+  area: koenji
+  coordinates:
+    lat: 35.7047
+    lng: 139.6497
+  wayfinding:
+    approach: "Exit Koenji Station from the south exit. The restaurant is immediately visible - look for the bright lights and the crowd of salarymen. About 83 meters from the station."
+    floor: "1F-3F"
+    entrance: "Prominent signage. Red lanterns. Can't miss it - one of the most visible spots near the station."
+    landmarks: "Right in front of the south exit of Koenji Station. Under the JR arcade."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Multiple floors means usually seats available."
+    notes: "Gets packed after 6pm. Arrive early or be ready to wait briefly."
+  hours:
+    weekday: "15:00-24:00"
+    weekend: "13:00-02:00"
+    closed: "No regular holidays (closed summer vacation, New Year)"
+  payment:
+    cash_only: false
+    notes: "Cash preferred. PayPay accepted."
+  language:
+    english_menu: false
+    english_spoken: "minimal"
+    order_tip: "Point at the yakitori. Tsukune, negima, skin are classics. Hoppy is the local beer alternative."
+  solo_friendly:
+    rating: 5
+    counter_seats: 15
+    notes: "Counter on first floor is solo paradise. Three floors total - counter, tables, and more tables."
+
+experience:
+  cuisine_type: yakitori
+  specialty: "Classic neighborhood yakitori with a 40-year secret sauce recipe"
+  signature_dish: "Yakitori set (5 skewers) - the secret tare sauce is the star"
+  price_range: "¥"
+  avg_spend: "¥1,500-2,500"
+  drink_notes: "Hoppy (low-alcohol beer drink), chuhai, cheap beer. All-you-can-drink banquet course available."
+  vibe_tags:
+    - salaryman-paradise
+    - budget
+    - late-night
+    - local-crowd
+    - neighborhood-institution
+  atmosphere: "Smoky, loud, unpretentious. Three floors of workers unwinding. The kind of place where the yakitori has been the same for 40 years because it doesn't need to change."
+
+authenticity:
+  years_operating: 40
+  local_ratio: 0.90
+  tabelog_rating: 3.35
+  awards: []
+  media_mentions: []
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Koenji has three Taisho locations - this is the original. The secret yakitori recipe has been unchanged for four decades. Cheap, authentic, and absolutely zero tourists. Perfect post-Koenji live house fuel."

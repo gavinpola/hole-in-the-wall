@@ -1,0 +1,67 @@
+# Chiyaba - Himalayan chai tea house under the tracks
+id: chiyaba-nakameguro
+name_en: Chiyaba
+name_ja: CHIYA-BA
+tagline: "Nepalese chai ritual. Hidden under train tracks. Rum masala chai exists."
+
+location:
+  region: tokyo
+  area: nakameguro
+  coordinates:
+    lat: 35.6440
+    lng: 139.6988
+  wayfinding:
+    approach: "From Nakameguro Station, walk about 3-5 minutes following the train tracks toward Kamimeguro. Look for the converted space under the elevated tracks - cozy lighting visible through the window."
+    floor: "1F"
+    entrance: "Under the train tracks. Warm lighting and a minimalist aesthetic. The space has a hidden lounge area behind the tea counter."
+    landmarks: "Under the Nakameguro train tracks in Kamimeguro district. Near the hip Nakameguro riverside area."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Small space but turnover is reasonable."
+    notes: "Perfect afternoon stop or evening wind-down."
+  hours:
+    weekday: "11:00-20:00"
+    weekend: "10:00-20:00 (Saturday)"
+    closed: "Sunday, Monday"
+  payment:
+    cash_only: false
+    notes: "Cards accepted."
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "Menu is simple and visual. Point at the chai you want. Rum chai is the move."
+  solo_friendly:
+    rating: 5
+    counter_seats: 6
+    notes: "Zen-like atmosphere perfect for solo contemplation. Bring a book or just watch the trains rumble overhead."
+
+experience:
+  cuisine_type: cafe
+  specialty: "Authentic Himalayan chai with tea imported from Nepal"
+  signature_dish: "Rum Masala Chai - chai with a kick. Lemon Masala Tea for non-drinkers."
+  price_range: "¥"
+  avg_spend: "¥800-1,500"
+  drink_notes: "All about the chai. Made with tea from small farms in eastern Nepal's Banchar region. Light snacks available - curry pan, scones, vegan doughnuts."
+  vibe_tags:
+    - cafe
+    - under-tracks
+    - zen
+    - solo-friendly
+    - afternoon-escape
+  atmosphere: "Dark, calming interior with rustic decor. A hidden lounge area behind the counter feels like a boutique hotel lobby. Trains rumble overhead."
+
+authenticity:
+  years_operating: 8
+  local_ratio: 0.70
+  tabelog_rating: 3.40
+  awards: []
+  media_mentions: []
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Run by the owner of nearby Nepalese restaurant ADI. The chai is legit - sourced directly from Himalayan farmers. Perfect recovery spot after a marathon, or pre-nightlife caffeine boost."

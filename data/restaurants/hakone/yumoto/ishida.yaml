@@ -1,0 +1,65 @@
+# Ishida - A grandmother's izakaya, beloved by Hakone locals
+id: ishida-yumoto
+name_en: Ishida
+name_ja: 石田
+tagline: "A cozy counter run by a mother-daughter duo, where locals go after work."
+
+location:
+  region: hakone
+  area: yumoto
+  coordinates:
+    lat: 35.2340
+    lng: 139.1025
+  wayfinding:
+    approach: "From Hakone-Yumoto Station, walk past the main tourist street toward the residential area. About 5 minutes walk. Look for a small, unassuming storefront with a warm glow."
+    floor: "1F"
+    entrance: "Very small sign, easy to miss. Looks like someone's house with a few seats inside."
+    landmarks: "In the quieter residential area north of the station. Away from the tourist shops."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in. Very small, so come early if you want a seat."
+    notes: "Opens at 6:30pm. Gets crowded around 8pm with locals finishing work."
+  hours:
+    weekday: "18:30-24:00"
+    weekend: "18:30-24:00"
+    closed: "Monday and Tuesday"
+  payment:
+    cash_only: true
+    notes: "Cash only. This is old-school Hakone."
+  language:
+    english_menu: false
+    english_spoken: "basic"
+    order_tip: "The mother and daughter speak a little English. Point at what others are eating, or say 'omakase' and trust them. They can accommodate vegetarian requests."
+  solo_friendly:
+    rating: 5
+    counter_seats: 8
+    notes: "This IS a solo dining spot. Counter seats only. You'll chat with the owner and the regulars next to you."
+
+experience:
+  cuisine_type: izakaya
+  specialty: "Home-style Japanese cooking - whatever mama-san makes that night"
+  signature_dish: "Changes daily - grilled fish, simmered dishes, seasonal pickles. Omakase style is best."
+  price_range: "¥"
+  avg_spend: "¥2,000-3,000"
+  drink_notes: "Beer, sake, shochu. Nothing fancy. Drinks are meant to accompany conversation and simple food."
+  vibe_tags:
+    - home-cooking
+    - local-only
+    - counter-dining
+    - late-night
+    - grandma-cooking
+  atmosphere: "Like eating at a Japanese grandmother's kitchen. The mother-daughter duo treat regulars like family. Warm, worn, real."
+
+authenticity:
+  years_operating: 35
+  local_ratio: 0.95
+  tabelog_rating: null
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "This is where Hakone's hotel and ryokan workers unwind after serving tourists all day. The food is simple but made with care. Come for the atmosphere more than any one dish. If you're recovering from a marathon, the warming home-style food and friendly faces are exactly what you need."

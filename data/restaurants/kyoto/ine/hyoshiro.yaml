@@ -1,0 +1,65 @@
+# Hyoshiro - Old-school family restaurant near the boathouses
+id: hyoshiro-ine
+name_en: Hyoshiro
+name_ja: 兵四楼
+tagline: "Generations of fishermen have eaten here. Order the heshiko sushi."
+
+location:
+  region: kyoto
+  area: ine
+  coordinates:
+    lat: 35.6778
+    lng: 135.2758
+  wayfinding:
+    approach: "From Ine bus stop, walk 7 minutes along the main road toward the boathouses. Look for a traditional wooden building on the waterfront side."
+    floor: "1F"
+    entrance: "Traditional Japanese entrance. Look for the shop name sign."
+    landmarks: "Near the main boathouse cluster. Walking distance from the bay. You'll pass several funaya on the way."
+
+visit_info:
+  reservation:
+    required: true
+    how: "Call 0772-32-0055. Japanese only."
+    notes: "Small family restaurant, often fully booked. Reservations strongly recommended, especially for dinner."
+  hours:
+    weekday: "11:00-14:00, 17:00-21:00 (L.O. 20:30)"
+    weekend: "11:00-14:00, 17:00-21:00 (L.O. 20:30)"
+    closed: "Thursday"
+  payment:
+    cash_only: true
+    notes: "Cash only. No ATM in Ine village - get cash in Amanohashidate before coming."
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "A la carte ordering, not set courses. Say 'heshiko sushi' (they'll understand). Point at the wall menu or other tables' food."
+  solo_friendly:
+    rating: 3
+    counter_seats: 0
+    notes: "Table seating. Solo dining fine but tables are set for groups. Less awkward at lunch."
+
+experience:
+  cuisine_type: seafood
+  specialty: "Traditional Ine seafood. Famous for heshiko (fish fermented in rice bran) - a Wakasa/Tango regional specialty."
+  signature_dish: "Heshiko sushi - fermented mackerel pressed onto sushi rice. Acquired taste, unforgettable. Also excellent sashimi and kaisen-don."
+  price_range: "¥¥"
+  avg_spend: "¥2,000-4,000"
+  drink_notes: "Local sake available. Good selection for a small village restaurant."
+  vibe_tags:
+    - old-school
+    - family-run
+    - local-specialty
+    - traditional
+    - fisherman-crowd
+  atmosphere: "No-frills traditional Japanese restaurant where the fishing community eats. Stairs are steep - be warned. The menu changes with what's fresh from the morning catch."
+
+authenticity:
+  years_operating: 40
+  local_ratio: 0.85
+  tabelog_rating: 3.36
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "The most authentic local experience in Ine. This is where fishermen actually eat. Heshiko sushi is a must-try - the fermented fish is a Tango Peninsula specialty rarely found outside this region. Not fancy, not touristy, just honest fishing village food."

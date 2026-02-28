@@ -1,0 +1,65 @@
+# Koyume - Hidden izakaya off the main street
+id: koyume-kinosaki
+name_en: Koyume
+name_ja: こ夢
+tagline: "Down a quiet alley, where locals drink homemade umeshu until midnight."
+
+location:
+  region: hyogo
+  area: kinosaki
+  coordinates:
+    lat: 35.6272
+    lng: 134.8080
+  wayfinding:
+    approach: "From the main street, turn down the narrow alley opposite Mandara-yu bathhouse. Walk 30 meters. Small wooden sign on your left."
+    floor: "1F"
+    entrance: "Sliding door, warm light spilling out"
+    landmarks: "Alley behind the main drag, near Mandara-yu bathhouse"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in welcome, call ahead for groups"
+    notes: "Popular with ryokan guests who want a local experience"
+  hours:
+    weekday: "17:00-23:30 (Apr-Oct), 11:30-14:30 & 17:00-23:30 (Nov-Mar)"
+    weekend: "17:00-23:30 (Apr-Oct), 11:30-14:30 & 17:00-23:30 (Nov-Mar)"
+    closed: "Irregular holidays"
+  payment:
+    cash_only: true
+    notes: "Cash only"
+  language:
+    english_menu: false
+    english_spoken: "none"
+    order_tip: "Smile and point. Start with oden, add dishes as you go. Try the homemade umeshu."
+  solo_friendly:
+    rating: 5
+    counter_seats: 6
+    notes: "Counter plus tatami. Counter is ideal for solo - chat with the master."
+
+experience:
+  cuisine_type: izakaya
+  specialty: "Oden, seasonal small plates, homemade umeshu"
+  signature_dish: "House-made umeshu paired with winter oden"
+  price_range: "¥"
+  avg_spend: "¥2,000-3,500"
+  drink_notes: "Homemade umeshu is the star. Good local sake selection."
+  vibe_tags:
+    - hidden-alley
+    - late-night
+    - locals-only-vibe
+    - homemade-umeshu
+    - oden
+  atmosphere: "More intimate than izakaya, closer to a small koryori-ya. Regulars on first-name basis. Late-night refuge for those seeking one more drink after the baths close."
+
+authenticity:
+  years_operating: 20
+  local_ratio: 0.70
+  tabelog_rating: 3.04
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "The kind of place ryokan concierges send guests who ask 'where do locals actually go?' Hidden down an alley, stays open late, homemade umeshu. Winter lunch service adds crab rice pot (kani kamameshi)."

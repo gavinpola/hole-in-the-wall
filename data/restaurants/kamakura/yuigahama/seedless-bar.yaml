@@ -1,0 +1,65 @@
+# Seedless Bar - Surfer beach bar & burger joint
+id: seedless-bar-yuigahama
+name_en: Seedless Bar
+name_ja: シードレスバー
+tagline: "California vibes. Ocean views. Wagyu burger after surfing."
+
+location:
+  region: kamakura
+  area: yuigahama
+  coordinates:
+    lat: 35.3100
+    lng: 139.5417
+  wayfinding:
+    approach: "From Yuigahama Station on the Enoden line, walk toward the beach (5 min). Seedless is on Route 134, directly facing the ocean. Look for the California-style signage."
+    floor: "2F"
+    entrance: "Street-level entrance, stairs up to the dining area with beach views"
+    landmarks: "Right on the main coastal road, across from Yuigahama Beach"
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk-in. Book ahead for sunset times on weekends."
+    notes: "Gets crowded during summer beach season. Surfers roll in after morning sessions."
+  hours:
+    weekday: "11:00-22:00"
+    weekend: "10:00-22:00"
+    closed: "Open daily"
+  payment:
+    cash_only: false
+    notes: "Cards accepted"
+  language:
+    english_menu: true
+    english_spoken: "conversational"
+    order_tip: "Surfer-friendly vibe, staff speaks good English. Just order what sounds good."
+  solo_friendly:
+    rating: 4
+    counter_seats: 6
+    notes: "Counter seating with ocean view. Solo surfers and travelers common. Easy vibe."
+
+experience:
+  cuisine_type: american-california
+  specialty: "Gourmet burgers, tacos, California-Mexican fusion"
+  signature_dish: "Yuigahama Burger - 100% wagyu beef patty, award-winning at Shonan Burger Festival"
+  price_range: "¥¥"
+  avg_spend: "¥2,000-3,000"
+  drink_notes: "Good beer selection. Margaritas and cocktails. Perfect for sunset drinks."
+  vibe_tags:
+    - surfer-spot
+    - beach-view
+    - california-vibes
+    - casual
+    - sunset-drinks
+  atmosphere: "Salt air and board wax. Blue waves through big windows. The kind of laid-back place where sandy feet are welcome. Not trying to be fancy - just good food with ocean views."
+
+authenticity:
+  years_operating: 15
+  local_ratio: 0.55
+  tabelog_rating: 3.25
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: medium
+  last_verified: "2026-02-28"
+  notes: "The real Kamakura beach experience. While tourists pack Komachi-dori, surfers and locals hang here watching waves. Come for the burger after a morning surf session, or just for sunset beers. Not traditional Japanese, but authentically Shonan beach culture."

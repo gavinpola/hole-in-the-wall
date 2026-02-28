@@ -1,0 +1,65 @@
+# Hatsuhana Honten - 90 years of jinenjo soba tradition
+id: hatsuhana-honten-yumoto
+name_en: Hatsuhana Soba Honten
+name_ja: はつ花 本店
+tagline: "Since 1934: soba made with wild mountain yam, beside a rushing river."
+
+location:
+  region: hakone
+  area: yumoto
+  coordinates:
+    lat: 35.2312
+    lng: 139.1055
+  wayfinding:
+    approach: "From Hakone-Yumoto Station, walk toward the mountains along Route 1. Cross Yumoto Bridge over the Hayakawa River. The honten (main store) is on the left, down by the water."
+    floor: "1F"
+    entrance: "Traditional wooden building on the riverbank. Blue noren curtain. You'll see the Hayakawa River rushing below."
+    landmarks: "At the foot of Yumoto Bridge. The river view from inside is the tell."
+
+visit_info:
+  reservation:
+    required: false
+    how: "No reservations. Line up. Peak lunch wait: 30-60 minutes."
+    notes: "Go at 10am when they open, or after 2pm to avoid the worst crowds. Worth the wait."
+  hours:
+    weekday: "10:00-19:00 (LO 18:30)"
+    weekend: "10:00-19:00 (LO 18:30)"
+    closed: "Wednesday (and Tuesday before a Wednesday holiday)"
+  payment:
+    cash_only: true
+    notes: "Cash only. Traditional establishment, traditional payment."
+  language:
+    english_menu: true
+    english_spoken: "none"
+    order_tip: "Seiro soba (cold soba with dipping sauce) is the purest way to taste their noodles. Tororo soba adds grated mountain yam for extra richness."
+  solo_friendly:
+    rating: 4
+    counter_seats: 0
+    notes: "Table seating only, but solo diners are common. You'll be seated quickly at a shared table during busy times."
+
+experience:
+  cuisine_type: soba
+  specialty: "Handmade soba using jinenjo (wild mountain yam) instead of egg as binder"
+  signature_dish: "Seiro soba - cold noodles with concentrated dipping sauce. Add the soba-yu (noodle water) at the end."
+  price_range: "¥¥"
+  avg_spend: "¥1,500-2,000"
+  drink_notes: "Soba-yu (the starchy water used to cook the noodles) is the drink here. It's tradition to pour it into your remaining sauce and sip."
+  vibe_tags:
+    - historic
+    - riverside
+    - traditional
+    - focused-eating
+    - pilgrimage-worthy
+  atmosphere: "Showa-era charm preserved. River rushing past the window. Old photographs on the walls. The sound of noodles being slurped with proper technique."
+
+authenticity:
+  years_operating: 90
+  local_ratio: 0.40
+  tabelog_rating: 3.55
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Founded 1934. The jinenjo (wild mountain yam) gives the noodles a distinctive springy texture you won't find elsewhere. Yes, tourists know about it. But 90 years of perfecting one craft means they've earned the reputation. Go for an early lunch, sit by the river, slurp loudly."

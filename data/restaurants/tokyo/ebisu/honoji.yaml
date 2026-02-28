@@ -1,0 +1,67 @@
+# Honoji - Hidden sake izakaya in Ebisu
+id: honoji-ebisu
+name_en: Honoji
+name_ja: ほのじ
+tagline: "Gray building, warm heart. Regulars at the counter, rare sake in the glass."
+
+location:
+  region: tokyo
+  area: ebisu
+  coordinates:
+    lat: 35.6480
+    lng: 139.7085
+  wayfinding:
+    approach: "Exit JR Ebisu Station from the West Exit. Walk about 3 minutes toward Ebisu-nishi. Look for an unassuming gray office building - the restaurant is on the ground floor."
+    floor: "1F"
+    entrance: "Look for warm lighting through a large window. No English signage, but the inviting glow and handwritten menu boards are visible from outside."
+    landmarks: "In the quieter Ebisu-nishi area, away from the main station bustle. Near small offices and residential buildings."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in for counter seats. Reservations recommended for groups or private rooms."
+    notes: "Popular with locals, especially after 8pm. Counter seats usually available for solo diners."
+  hours:
+    weekday: "17:30-23:00"
+    weekend: "17:00-23:00"
+    closed: "No regular holidays"
+  payment:
+    cash_only: false
+    notes: "Cards accepted. Cash also welcome."
+  language:
+    english_menu: false
+    english_spoken: "minimal"
+    order_tip: "Point at menu items. Staff are patient and friendly. Start with the seasonal fish plate."
+  solo_friendly:
+    rating: 5
+    counter_seats: 8
+    notes: "Counter seats are perfect for watching the chefs work. Regulars chat with staff - you can too."
+
+experience:
+  cuisine_type: izakaya
+  specialty: "Fresh market seafood and regional sake"
+  signature_dish: "Daily sashimi plate (whatever's fresh from the market) and seasonal tempura"
+  price_range: "¥¥"
+  avg_spend: "¥3,500-5,000"
+  drink_notes: "Excellent sake selection - ask the staff for recommendations. They know their nihonshu."
+  vibe_tags:
+    - sake-focused
+    - local-crowd
+    - counter-seats
+    - seafood
+    - hidden-gem
+  atmosphere: "Warm wood interior, handwritten daily specials on the wall. Mix of counter, tables, and tatami rooms. Feels like a neighborhood secret."
+
+authenticity:
+  years_operating: 15
+  local_ratio: 0.85
+  tabelog_rating: 3.55
+  awards: []
+  media_mentions: []
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "Ebisu has gotten trendy, but Honoji keeps it real. The sake selection rivals specialty bars, but the vibe stays relaxed. Great pre-dinner spot before hitting Ebisu nightlife."

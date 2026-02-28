@@ -1,0 +1,68 @@
+# Yakitori Ton Ton - Under the train tracks in Yurakucho
+id: yakitori-ton-ton-yurakucho
+name_en: Yakitori Ton Ton
+name_ja: もつやき 登運とん
+tagline: "Smoky grills under rumbling Shinkansen tracks. Beer, offal, and old Tokyo vibes."
+
+location:
+  region: tokyo
+  area: yurakucho
+  coordinates:
+    lat: 35.6736
+    lng: 139.7610
+  wayfinding:
+    approach: "Exit Hibiya Station via A2 exit. Turn right and walk along the railway tracks toward Yurakucho. You'll smell the smoke before you see it - look for the cluster of tiny stalls wedged under the elevated tracks."
+    floor: "1F"
+    entrance: "Open-air counter facing the alley. Red lanterns and handwritten signs. Look for the billowing smoke."
+    landmarks: "Under the Tokaido Shinkansen tracks, between Yurakucho and Shimbashi stations. Near Hibiya Okuroji."
+
+visit_info:
+  reservation:
+    required: false
+    how: "Walk in only. Queue if busy."
+    notes: "Opens early afternoon on weekends - good option before evening plans."
+  hours:
+    weekday: "13:30-22:45"
+    weekend: "12:00-22:00"
+    closed: "No regular holidays"
+  payment:
+    cash_only: true
+    notes: "Small bills preferred. No cards accepted."
+  language:
+    english_menu: true
+    english_spoken: "basic"
+    order_tip: "English menu available. Point at what looks good on the grill."
+  solo_friendly:
+    rating: 5
+    counter_seats: 12
+    notes: "Counter-style seating is perfect for solo diners. Sit, point, eat, drink."
+
+experience:
+  cuisine_type: yakitori
+  specialty: "Grilled offal (motsu) and yakitori under the train tracks"
+  signature_dish: "Pork belly skewers, grilled chicken hearts, nankotsu (cartilage)"
+  price_range: "¥"
+  avg_spend: "¥2,000-3,000"
+  drink_notes: "Cheap beer, highballs, and chuhai. The beer tastes better with train rumble overhead."
+  vibe_tags:
+    - under-tracks
+    - smoke-filled
+    - salaryman-paradise
+    - local-crowd
+    - old-tokyo
+  atmosphere: "Cramped, smoky, loud with trains overhead. Salarymen loosening ties, smoke curling upward. Authentic Tokyo drinking culture."
+
+authenticity:
+  years_operating: 50
+  local_ratio: 0.85
+  tabelog_rating: 3.48
+  awards: []
+  media_mentions:
+    - "Anthony Bourdain visited this area"
+
+discovery:
+  added_date: "2026-02-28"
+  source: "Research"
+  confidence: high
+  last_verified: "2026-02-28"
+  notes: "One of the most authentic Yurakucho experiences. The under-tracks atmosphere is unmatchable. Perfect post-marathon celebration spot."
