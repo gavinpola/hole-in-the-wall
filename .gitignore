@@ -1,6 +1,9 @@
 # Build output
 dist/
 
+# Config with secrets
+src/js/config.js
+
 # Python
 __pycache__/
 *.py[cod]

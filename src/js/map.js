@@ -3,12 +3,11 @@
  * Mapbox GL JS integration
  */
 
-// Mapbox configuration
-// Note: Replace with your own Mapbox token for production
-const MAPBOX_TOKEN = 'pk.eyJ1IjoiaG9sZWludGhld2FsbCIsImEiOiJjbTR5OWZ2NjEwMDJrMnFzN2x1eWVmOTl2In0.placeholder';
+// Get token from config (loaded via config.js)
+const MAPBOX_TOKEN = window.HITW_CONFIG?.MAPBOX_TOKEN || '';
 
-// Check if we have a real token (you'll need to set this)
-const hasToken = !MAPBOX_TOKEN.includes('placeholder');
+// Check if we have a real token
+const hasToken = MAPBOX_TOKEN && !MAPBOX_TOKEN.includes('YOUR_');
 
 // Map instance
 let map = null;

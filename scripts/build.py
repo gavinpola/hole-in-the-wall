@@ -147,6 +147,33 @@ def generate_manifest():
     print(f"\n✓ Generated {manifest_file}")
 
 
+def generate_config():
+    """Generate config.js with API keys from environment variables."""
+    print("\n🔑 Generating config...")
+
+    mapbox_token = os.environ.get('MAPBOX_TOKEN', '')
+
+    if not mapbox_token:
+        print("  ⚠️ MAPBOX_TOKEN not set - map will show placeholder")
+
+    config_content = f"""/**
+ * Configuration - Generated at build time
+ */
+
+window.HITW_CONFIG = {{
+  MAPBOX_TOKEN: '{mapbox_token}'
+}};
+"""
+
+    config_file = DIST_DIR / "js" / "config.js"
+    config_file.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(config_file, 'w', encoding='utf-8') as f:
+        f.write(config_content)
+
+    print(f"  ✓ {config_file}")
+
+
 def main():
     """Main build process."""
     print("=" * 50)
@@ -161,6 +188,7 @@ def main():
     # Build steps
     build_data()
     copy_static()
+    generate_config()
     generate_manifest()
 
     print("\n" + "=" * 50)

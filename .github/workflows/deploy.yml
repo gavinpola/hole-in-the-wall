@@ -30,6 +30,8 @@ jobs:
         run: pip install pyyaml
 
       - name: Build site
+        env:
+          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
         run: python scripts/build.py
 
       - name: Upload artifact
